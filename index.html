@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>analog camera space</title>
+  <meta name="description" content="A database of currently available new analog cameras">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://analogcamera.space/">
+  <meta property="og:title" content="analog camera space">
+  <meta property="og:description" content="A database of currently available new analog cameras">
+  <meta property="og:image" content="https://analogcamera.space/preview.png">
+  <meta property="og:image:secure_url" content="https://analogcamera.space/preview.png">
+  <meta property="og:image:width" content="640"> 
+  <meta property="og:image:height" content="320">
+
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://analogcamera.space/">
+  <meta property="twitter:title" content="analog camera space">
+  <meta property="twitter:description" content="A database of currently available new analog cameras">
+  <meta property="twitter:image" content="https://analogcamera.space/preview.png">
+
+  <link href="manifest.webmanifest" rel="manifest">
+  <link href="favicon.svg" rel="icon">
+  <link href="favicon.svg" rel="shortcut icon">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="fonts/ek-mukta-400-latin.woff2" rel="preload" as="font" type="font/woff2" crossorigin>
+  <link href="fonts/ek-mukta-700-latin.woff2" rel="preload" as="font" type="font/woff2" crossorigin>
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1><a href="/">analog camera<span>.space</span></a></h1>
+      <p>a database of currently available new analog cameras</p>
+      <nav><a href="/" class="active">overview</a> / <a href="/faq">frequently asked questions</a></nav>
+    </header>
+    <main>
+      <aside>
+        <section>
+          <input placeholder="search" v-model="search" aria-label="search" class="search" />
+          <select v-model="type" aria-label="camera type">
+            <option value="all">all types</option>
+            <option value="bellows">bellows</option>
+            <option value="disposable">disposable</option>
+            <option value="pinhole">pinhole</option>
+            <option value="point & shoot">point & shoot</option>
+            <option value="rangefinder">rangefinder</option>
+            <option value="single-lens reflex">single-lens reflex</option>
+            <option value="twin-lens reflex">twin-lens reflex</option>
+          </select>
+          <select v-model="format" aria-label="camera format">
+            <option value="all">all formats</option> 
+            <option value="110">110 - pocket film</option>
+            <option value="120">120 - medium format</option>
+            <option value="135">135 - 35mm film</option>
+            <option value="4x5">4x5" - large format</option>
+            <option value="8x10">8x10" - large format</option>
+          </select>
+        </section>
+        <section>
+          <label>sort by</label> 
+          <button v-on:click="sort" v-bind:class="[ sortBy === 'popularity' ? 'active' : '', sortBy === 'popularity' ? sortDir : '' ]">popularity</button>
+          <button v-on:click="sort" v-bind:class="[ sortBy === 'name' ? 'active' : '', sortBy === 'name' ? sortDir : '' ]">name</button>
+          <button v-on:click="sort" v-bind:class="[ sortBy === 'price' ? 'active' : '', sortBy === 'price' ? sortDir : '' ]">price</button>
+          <button v-on:click="sort" v-bind:class="[ sortBy === 'date' ? 'active' : '', sortBy === 'date' ? sortDir : '' ]">date</button>
+        </section>
+      </aside>
+      <ul v-cloak>
+        <li v-for="camera in cameras">
+          <img :src="'images/small/' + camera.image" :srcset="'images/small/' + camera.image + ' 1x, images/' + camera.image + ' 2x'" :alt="camera.name">
+          <h2>{{camera.name}}</h2>
+          <p>
+            <span v-if="camera.description">{{camera.description}}</span>
+            <span>
+              <a v-if="camera.website" :href="camera.website" target="_blank" rel="noopener">website</a>
+            </span>
+          </p>
+          <aside>
+            <div title="camera type">{{camera.type}}</div>
+            <div title="camera format">{{camera.format}}</div>
+            <div title="camera launched/updated" v-if="camera.launched">{{camera.launched}}</div>
+            <div title="price range">{{formatPrice(camera.price)}}</div>
+          </aside>
+        </li>
+      </ul>
+      <h2 v-if="cameras.length === 0">nothing here :(</h2>
+    </main>
+  </div>
+  <script src="js/current-cameras.js?d=20220924"></script>
+  <script src="js/vue.global.prod.js"></script>
+  <script src="js/script-index.js?d=20220924"></script>
+</body>
+</html>

@@ -7,9 +7,21 @@ var currentcameras = [
     "price": 1,
     "popularity": 0,
     "description": "a simple focus free reusable plastic camera with built-in flash (available in black, brown and red)",
-    "website": "",
+    "website": "https://www.lupus-imaging-media.com/agfaphoto-analogkameras/",
     "launched": 2020,
     "image": "agfaphoto-35mm.png"
+  },
+  {
+    "company": "AgfaPhoto",
+    "name": "AgfaPhoto Half Frame",
+    "format": "135",
+    "type": "point & shoot",
+    "price": 1,
+    "popularity": 0,
+    "description": "a simple focus free reusable plastic camera with built-in flash that uses the half frame format",
+    "website": "",
+    "launched": 2023,
+    "image": "agfaphoto-half-frame.png"
   },
   {
     "company": "dubblefilm",
@@ -261,6 +273,19 @@ var currentcameras = [
   },
   {
     "company": "Leica",
+    "name": "Leica M6",
+    "format": "135",
+    "type": "rangefinder",
+    "price": 3,
+    "popularity": 0,
+    "description": "a rangefinder camera with built-in light meter",
+    "website": "https://leica-camera.com/de-DE/fotografie/kameras/m/m6",
+    "manual": "manuals/leica-m6.pdf",
+    "launched": 1984,
+    "image": "leica-m6.png"
+  },
+  {
+    "company": "Leica",
     "name": "Leica M-A (Typ 127)",
     "format": "135",
     "type": "rangefinder",
@@ -279,7 +304,7 @@ var currentcameras = [
     "type": "rangefinder",
     "price": 3,
     "popularity": 0,
-    "description": "a mechanical rangefinder camera with built-in light meter (available in black and silver)",
+    "description": "a rangefinder camera with built-in light meter (available in black and silver)",
     "website": "https://leica-camera.com/de-DE/fotografie/kameras/m/mp-silbern",
     "manual": "manuals/leica-mp.pdf",
     "launched": 2003,
@@ -412,10 +437,46 @@ var currentcameras = [
     "type": "point & shoot",
     "price": 2,
     "popularity": 0,
-    "description": "a focus free mechanical panorama camera",
+    "description": "a focus free mechanical panorama camera with a fixed aperture",
     "website": "https://microsites.lomography.com/horizon/horizon-kompakt/",
     "launched": 2005,
     "image": "lomography-horizon-kompakt.png"
+  },
+  {
+    "company": "Lomography",
+    "name": "Lomography Horizon Perfekt",
+    "format": "135",
+    "type": "point & shoot",
+    "price": 2,
+    "popularity": 0,
+    "description": "a focus free mechanical panorama camera with variable aperture and shutter speed",
+    "website": "https://microsites.lomography.com/horizon/horizon-perfekt/",
+    "launched": 2005,
+    "image": "lomography-horizon-perfekt.png"
+  },
+  {
+    "company": "Lomography",
+    "name": "Lomography HydroChrome Sutton’s Panoramic Belair",
+    "format": "135",
+    "type": "point & shoot",
+    "price": 2,
+    "popularity": 0,
+    "description": "a plastic camera where the lens can be filled with (colored) liquid",
+    "website": "https://shop.lomography.com/hydrochrome-sutton-s-panoramic-belair-camera",
+    "launched": 2020,
+    "image": "lomography-hydrochrome-suttons-panoramic-belair.png"
+  },
+  {
+    "company": "Lomography",
+    "name": "Lomography Konstruktor",
+    "format": "135",
+    "type": "single-lens reflex",
+    "price": 1,
+    "popularity": 0,
+    "description": "a plastic single-lens reflex camera that you have to assemble yourself",
+    "website": "https://microsites.lomography.com/konstruktor/",
+    "launched": 2013,
+    "image": "lomography-konstruktor.png"
   },
   {
     "company": "Lomography",
@@ -464,6 +525,18 @@ var currentcameras = [
     "website": "https://microsites.lomography.com/lc-wide/",
     "launched": 2011,
     "image": "lomography-lomo-lc-wide.png"
+  },
+  {
+    "company": "Lomography",
+    "name": "Lomography LomoMod No.1",
+    "format": "120",
+    "type": "point & shoot",
+    "price": 1,
+    "popularity": 0,
+    "description": "a cardboard camera that you have to assemble yourself and where the lens can be filled with (colored) liquid",
+    "website": "https://www.lomography.com/lomomod",
+    "launched": 2019,
+    "image": "lomography-lomomod-no-1.png"
   },
   {
     "company": "Lomography",
@@ -668,6 +741,31 @@ var currentcameras = [
     "website": "https://ondupinhole.com/products/8x10-giant-pinhole-camera",
     "launched": 2015,
     "image": "ondu-8x10-giant.png"
+  },
+  {
+    "company": "Somikon",
+    "name": "Somikon Twin-Lens Reflex",
+    "format": "135",
+    "type": "twin-lens reflex",
+    "price": 1,
+    "popularity": 0,
+    "description": "a focusable plastic twin-lens reflex camera with two apertures that you have to assemble yourself",
+    "website": "http://www.somikon.de/DIY-Kamera-kit-NC-9949-919.shtml",
+    "manual": "manuals/somikon-twin-lens-reflex.pdf",
+    "launched": 2013,
+    "image": "somikon-twin-lens-reflex.png"
+  },
+  {
+    "company": "Superheadz",
+    "name": "Superheadz Powershovel Blackbird, Fly",
+    "format": "135",
+    "type": "twin-lens reflex",
+    "price": 2,
+    "popularity": 0,
+    "description": "a focusable plastic twin-lens reflex camera with two apertures (available in black, blue, red, orange, yellow and white)",
+    "website": "",
+    "launched": 2008,
+    "image": "superheadz-powershovel-blackbird-fly.png"
   },
   {
     "company": "Yashica",

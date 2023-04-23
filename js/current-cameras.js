@@ -161,6 +161,45 @@ var currentcameras = [
     "image": "ilford-xp2-super-single-use-camera.png"
   },
   {
+    "company": "Intrepid",
+    "name": "Intrepid 4x5",
+    "format": "4x5",
+    "type": "bellows",
+    "price": 2,
+    "popularity": 0,
+    "description": "A comparatively lightweight camera that can be packed compactly",
+    "website": "https://intrepidcamera.co.uk/collections/camera/products/intrepid-4x5-camera",
+    "manual": "",
+    "launched": 2022,
+    "image": "intrepid-4x5.png"
+  },
+  {
+    "company": "Intrepid",
+    "name": "Intrepid 5x7",
+    "format": "5x7",
+    "type": "bellows",
+    "price": 2,
+    "popularity": 0,
+    "description": "A comparatively lightweight camera that can be packed compactly",
+    "website": "https://intrepidcamera.co.uk/collections/camera/products/intrepid-5x7-camera",
+    "manual": "",
+    "launched": 2020,
+    "image": "intrepid-5x7.png"
+  },
+  {
+    "company": "Intrepid",
+    "name": "Intrepid 8x10",
+    "format": "8x10",
+    "type": "bellows",
+    "price": 3,
+    "popularity": 0,
+    "description": "A comparatively lightweight camera that can be packed compactly",
+    "website": "https://intrepidcamera.co.uk/collections/camera/products/intrepid-8x10-camera",
+    "manual": "",
+    "launched": 2022,
+    "image": "intrepid-8x10.png"
+  },
+  {
     "company": "Kodak",
     "name": "Kodak Daylight",
     "format": "135",
@@ -195,6 +234,18 @@ var currentcameras = [
     "website": "https://imaging.kodakalaris.com/photographers/film/single-use-cameras",
     "launched": 1990,
     "image": "kodak-fun-saver.png"
+  },
+  {
+    "company": "Kodak",
+    "name": "Kodak i60",
+    "format": "135",
+    "type": "point & shoot",
+    "price": 2,
+    "popularity": 0,
+    "description": "a simple focus free reusable plastic camera with built-in pop-up flash (available in yellow and very peri)",
+    "website": "https://www.kodak.com/en/consumer/product/cameras/film/i60",
+    "launched": 2021,
+    "image": "kodak-i60.png"
   },
   {
     "company": "Kodak",

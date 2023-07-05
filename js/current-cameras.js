@@ -794,6 +794,30 @@ var currentcameras = [
     "image": "ondu-8x10-giant.png"
   },
   {
+    "company": "RETO",
+    "name": "RETO Ultra Wide & Slim",
+    "format": "135",
+    "type": "point & shoot",
+    "price": 1,
+    "popularity": 0,
+    "description": "a simple focus free reusable plastic camera with a wide-angle lens (available in blue, cream, charcoal, olive, pink, teal and yellow)",
+    "website": "https://retoproject.com/products/reto-ultra-wide-slim-film-camera",
+    "launched": 2022,
+    "image": "reto-ultra-wide-and-slim.png"
+  },
+  {
+    "company": "RETO",
+    "name": "RETO3D Classic",
+    "format": "135",
+    "type": "point & shoot",
+    "price": 2,
+    "popularity": 0,
+    "description": "a focus free reusable plastic camera with three lenses for creating animated Gifs with a 3D effect",
+    "website": "https://retoproject.com/products/reto3d-classic",
+    "launched": 2019,
+    "image": "reto3d-classic.png"
+  },
+  {
     "company": "Somikon",
     "name": "Somikon Twin-Lens Reflex",
     "format": "135",
@@ -817,6 +841,18 @@ var currentcameras = [
     "website": "",
     "launched": 2008,
     "image": "superheadz-powershovel-blackbird-fly.png"
+  },
+  {
+    "company": "VibePhoto",
+    "name": "Vibe 501F",
+    "format": "135",
+    "type": "point & shoot",
+    "price": 1,
+    "popularity": 0,
+    "description": "a simple focus free reusable plastic camera with built-in flash (available in black, golden, green, pink, red and silver)",
+    "website": "",
+    "launched": 2021,
+    "image": "vibe-501f.png"
   },
   {
     "company": "Yashica",

@@ -28,9 +28,10 @@
   <link href="fonts/ek-mukta-400-latin.woff2" rel="preload" as="font" type="font/woff2" crossorigin>
   <link href="fonts/ek-mukta-700-latin.woff2" rel="preload" as="font" type="font/woff2" crossorigin>
 </head>
-<body>
+<body class="dark">
   <div id="app">
     <header>
+      <div class="switch" v-on:click="toggle"></div>
       <h1><a href="/">analog camera<span>.space</span></a></h1>
       <p>a database of currently available new analog cameras</p>
       <nav><a href="/" class="active">overview</a> / <a href="/faq">frequently asked questions</a></nav>
@@ -85,8 +86,17 @@
             <div title="price range">{{formatPrice(camera.price)}}</div>
           </aside>
         </li>
+        <li v-if="cameras.length === 0">
+          <h2>Nothing found :(</h2>
+          <p>
+            <span>None of the cameras match the seleted criteria.</span>
+            <span>Adjust the search term or filters to find any results.</span>
+          </p>
+          <aside>
+            <div><a v-on:click="reset">Clear all filters</a></div>
+          </aside>
+        </li>
       </ul>
-      <h2 v-if="cameras.length === 0">nothing here :(</h2>
     </main>
   </div>
   <script src="js/current-cameras.js?d=20230705"></script>

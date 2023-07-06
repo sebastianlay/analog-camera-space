@@ -13,10 +13,11 @@ Vue.createApp({
     searchedcameras: function() {
       if(this.search) {
         var searchTerms = this.search.toLowerCase().split(' ');
-        return this.currentcameras.filter(function (film) {
-          const name = film.name.toLowerCase();
-          const description = film.description.toLowerCase();
-          const matches = (searchTerm) => name.includes(searchTerm) || description.includes(searchTerm);
+        return this.currentcameras.filter(function (camera) {
+          const name = camera.name.toLowerCase();
+          const description = camera.description.toLowerCase();
+          const company = camera.company.toLowerCase();
+          const matches = (searchTerm) => name.includes(searchTerm) || description.includes(searchTerm) || company.includes(searchTerm);
           return searchTerms.every(matches);
         });
       } else {
@@ -73,12 +74,31 @@ Vue.createApp({
     formatPrice: function(price) {
       return "€".repeat(price);
     },
+    reset: function() {
+      this.search = '';
+      this.type = 'all';
+      this.format = 'all';
+    },
     sort: function(button) {
       if(this.sortBy === button.target.innerText.toLowerCase()) {
         this.sortDir === 'asc' ? this.sortDir = 'desc' : this.sortDir = 'asc';
       } else {
         this.sortBy = button.target.innerText.toLowerCase();
       }
+    },
+    toggle: function() {
+      if(document.querySelector('body').classList.contains('dark')) {
+        localStorage.setItem('theme', 'light');
+        document.querySelector('body').classList.remove('dark');
+      } else {
+        localStorage.setItem('theme', 'dark');
+        document.querySelector('body').classList.add('dark');
+      }
+    }
+  },
+  mounted: function() {
+    if(localStorage.getItem('theme') !== 'dark') {
+      document.querySelector('body').classList.remove('dark');
     }
   }
 }).mount('#app');

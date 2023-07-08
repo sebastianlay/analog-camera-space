@@ -31,6 +31,7 @@
 <body class="dark">
   <div id="faq">
     <header>
+      <div class="switch" v-on:click="toggle"></div>
       <h1><a href="/">analog camera<span>.space</span></a></h1>
       <p>a database of currently available new analog cameras</p>
       <nav><a href="/">overview</a> / <a href="/faq" class="active">frequently asked questions</a></nav>
@@ -38,16 +39,33 @@
     <main>
       <ul>
         <li>
-          <h2>Why isn’t camera x listed here?</h2>
+          <h2>Why isn’t camera x listed on this site?</h2>
+          <p>This site attempts to list all analog still cameras that are still produced and (more or less) widely available.</p>
+          <p>You can check the list of excluded cameras or request the addition of a camera in case I missed one!</p>
+          <aside>
+            <div><a href="https://github.com/sebastianlay/analog-camera-space/wiki/Unlisted-cameras" target="_blank" rel="noopener noreferrer">Excluded Cameras</a></div>
+            <div><a href="https://github.com/sebastianlay/analog-camera-space/issues" target="_blank" rel="noopener noreferrer">Request Camera</a></div>
+          </aside>
         </li>
         <li>
           <h2>What about the price ranges?</h2>
+          <p>Prices are always chaning and so I give only rough estimates for what you should expect to pay.</p>
+          <p>Please be aware that used analog cameras usually give you way better value for your money.</p>
           <p>€ - cheap (less than 50 €)<br>€€ - moderate (less than 500€)<br>€€€ - expensive (more than 500€)</p>
         </li>
         <li>
           <h2>How is the popularity measured?</h2>
+          <p>It’s not easy to measure this. Currently it’s just the number of search results on a popular photo site. I’m very open to alternative ideas! Please let me know via the issues in the repository on GitHub if you have an idea:</p>
           <aside>
-            <div><a href="https://github.com/sebastianlay/analog-camera-space/issues" target="_blank" rel="noopener noreferrer">GitHub repository</a></div>
+            <div><a href="https://github.com/sebastianlay/analog-camera-space/issues" target="_blank" rel="noopener noreferrer">GitHub Repository</a></div>
+          </aside>
+        </li>
+        <li>
+          <h2>What about films that are needed for these cameras?</h2>
+          <p>I’m glad you asked! I have also created a sister site to this one where I attempt to list all analog films that are still in production and are widely available.</p>
+          <p>You can check it out here:</p>
+          <aside>
+            <div><a href="https://analogfilm.space/" target="_blank" rel="noopener noreferrer">analogfilm.space</a></div>
           </aside>
         </li>
         <li>
@@ -60,5 +78,7 @@
       </ul>
     </main>
   </div>
+  <script src="js/vue.global.prod.js"></script>
+  <script src="js/script-faq.js?d=20230708"></script>
 </body>
 </html>

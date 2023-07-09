@@ -481,7 +481,7 @@ var currentcameras = [
   },
   {
     "company": "Lomography",
-    "name": "Lomography ActionSampler clear",
+    "name": "Lomography ActionSampler",
     "format": "135",
     "type": "point & shoot",
     "price": 1,
@@ -703,6 +703,21 @@ var currentcameras = [
     "lomography": "https://www.lomography.com/cameras/3334141-lomo-lc-wide/photos",
     "flickr": "https://www.flickr.com/search/?media=photos&text=%22Lomography%20Lomo%20LC-Wide%22",
     "image": "lomography-lomo-lc-wide.png"
+  },
+  {
+    "company": "Lomography",
+    "name": "Lomography LomoApparat",
+    "format": "135",
+    "type": "point & shoot",
+    "price": 2,
+    "popularity": 76,
+    "description": "a simple focus free plastic camera with a wide-angle lens and built-in flash color filters",
+    "website": "",
+    "launched": 2022,
+    "manual": "manuals/lomography-lomoapparat.pdf",
+    "lomography": "https://www.lomography.com/cameras/3365658-lomoapparat/photos",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22Lomography%20LomoApparat%22",
+    "image": "lomography-lomoapparat.png"
   },
   {
     "company": "Lomography",

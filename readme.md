@@ -2,7 +2,7 @@
 
 ![Preview](preview.png)
 
-A database of currently available new analog cameras.
+A database of currently still produced and available analog cameras.
 
 This repository contains all the source code for the website to allow for easier collaboration.
 

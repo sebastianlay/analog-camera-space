@@ -5,10 +5,13 @@ var currentcameras = [
     "format": "135",
     "type": "point & shoot",
     "price": 1,
-    "popularity": 0,
+    "popularity": 75,
     "description": "a simple focus free reusable plastic camera with built-in flash (available in black, brown and red)",
-    "website": "https://www.lupus-imaging-media.com/agfaphoto-analogkameras/",
+    "website": "https://www.lupus-imaging-media.com/kataloge/agfaphoto-fotografie/",
     "launched": 2020,
+    "manual": "manuals/agfaphoto-35mm.pdf",
+    "lomography": "https://www.lomography.com/cameras/3363644-agfa-photo-35mm/photos",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22AgfaPhoto%2035mm%22",
     "image": "agfaphoto-35mm.png"
   },
   {
@@ -17,10 +20,13 @@ var currentcameras = [
     "format": "135",
     "type": "point & shoot",
     "price": 1,
-    "popularity": 0,
+    "popularity": 27,
     "description": "a simple focus free reusable plastic camera with built-in flash that uses the half frame format",
-    "website": "",
+    "website": "https://www.lupus-imaging-media.com/kataloge/agfaphoto-fotografie/",
     "launched": 2023,
+    "manual": "",
+    "lomography": "",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22AgfaPhoto%20Half%20Frame%22",
     "image": "agfaphoto-half-frame.png"
   },
   {
@@ -29,10 +35,13 @@ var currentcameras = [
     "format": "135",
     "type": "point & shoot",
     "price": 2,
-    "popularity": 0,
+    "popularity": 90,
     "description": "a simple focus free reusable plastic camera with built-in flash (available in black, pink and turquoise)",
     "website": "https://dubblefilm.com/collections/show-camera",
     "launched": 2020,
+    "manual": "",
+    "lomography": "https://www.lomography.com/cameras/3362363-dubblefilm-show/photos",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22dubblefilm%20SHOW%22",
     "image": "dubblefilm-show.png"
   },
   {
@@ -41,11 +50,13 @@ var currentcameras = [
     "format": "135",
     "type": "disposable",
     "price": 1,
-    "popularity": 0,
+    "popularity": 178,
     "description": "a simple focus free plastic camera with built-in flash for indoor and outdoor use (loaded with Superia X-TRA 400)",
     "website": "https://www.ishootfujifilm.com/products/detail/quicksnap-flash-400",
-    "manual": "manuals/fujifilm-quicksnap-flash-400.pdf",
     "launched": 1986,
+    "manual": "manuals/fujifilm-quicksnap-flash-400.pdf",
+    "lomography": "https://www.lomography.com/cameras/3338773-fujifilm-quick-snap-flash/photos",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22Fujifilm%20QuickSnap%20Flash%20400%22",
     "image": "fujifilm-quicksnap-flash-400.png"
   },
   {
@@ -54,10 +65,13 @@ var currentcameras = [
     "format": "135",
     "type": "disposable",
     "price": 1,
-    "popularity": 0,
+    "popularity": 108,
     "description": "a simple focus free plastic camera with built-in flash for underwater use (loaded with Superia X-TRA 800)",
     "website": "https://www.fujifilm.com/us/en/consumer/film-quicksnap/quicksnap/quicksnap-waterproof",
     "launched": 2021,
+    "manual": "manuals/fujifilm-quicksnap-waterproof.pdf",
+    "lomography": "https://www.lomography.com/cameras/3335254-fujifilm-quick-snap-waterproof-disposable-camera/photos",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22Fujifilm%20QuickSnap%20Waterproof%22",
     "image": "fujifilm-quicksnap-waterproof.png"
   },
   {
@@ -66,11 +80,13 @@ var currentcameras = [
     "format": "135",
     "type": "point & shoot",
     "price": 2,
-    "popularity": 0,
+    "popularity": 65,
     "description": "a simple focus free reusable plastic camera with built-in flash and motorised film load, advance and rewind (loaded with Ilford HP5 Plus)",
     "website": "https://www.harmantechnology.com/harman-ez-35-reusable-camera-with-hp5",
-    "manual": "manuals/harman-ez-35.pdf",
     "launched": 2021,
+    "manual": "manuals/harman-ez-35.pdf",
+    "lomography": "",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22Harman%20EZ-35%22",
     "image": "harman-ez-35.png"
   },
   {
@@ -79,10 +95,13 @@ var currentcameras = [
     "format": "135",
     "type": "point & shoot",
     "price": 1,
-    "popularity": 0,
+    "popularity": 159,
     "description": "a simple focus free reusable plastic camera with built-in flash (includes 2x Kentmere Pan 400)",
     "website": "https://www.harmantechnology.com/harman-reusable-camera-and-kentmere-film",
     "launched": 2019,
+    "manual": "",
+    "lomography": "https://www.lomography.com/cameras/3362241-ilford-harman-reusable-camera/photos",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22Harman%20Reusable%20Camera%22",
     "image": "harman-reusable-camera.png"
   },
   {
@@ -91,10 +110,13 @@ var currentcameras = [
     "format": "4x5",
     "type": "pinhole",
     "price": 2,
-    "popularity": 0,
+    "popularity": 383,
     "description": "a pinhole camera made from ABS type plastics with interchangable cones for different focal lengths",
     "website": "https://www.harmantechnology.com/harman-titan-4x5-pinhole-camera",
     "launched": 2011,
+    "manual": "manuals/harman-titan-4x5-pinhole.pdf",
+    "lomography": "https://www.lomography.com/cameras/3352042-ilford-harman-titan-4-x-5-pinhole-camera/photos",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22Harman%20Titan%204x5%20Pinhole%22",
     "image": "harman-titan-4x5-pinhole.png"
   },
   {
@@ -103,11 +125,13 @@ var currentcameras = [
     "format": "135",
     "type": "disposable",
     "price": 1,
-    "popularity": 0,
+    "popularity": 52,
     "description": "a simple focus free plastic camera with built-in flash (loaded with Ilford HP5 Plus)",
     "website": "https://www.harmantechnology.com/hp5-plus-single-use-camera",
-    "manual": "manuals/ilford-hp5-plus-single-use-camera.pdf",
     "launched": 2012,
+    "manual": "manuals/ilford-hp5-plus-single-use-camera.pdf",
+    "lomography": "https://www.lomography.com/cameras/3350234-ilford-hp5-plus-400-disposable-camera/photos",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22Ilford%20HP5%20Plus%20Single%20Use%20Camera%22",
     "image": "ilford-hp5-plus-single-use-camera.png"
   },
   {
@@ -116,10 +140,13 @@ var currentcameras = [
     "format": "135",
     "type": "disposable",
     "price": 1,
-    "popularity": 0,
+    "popularity": 13,
     "description": "a simple focus free plastic camera with built-in flash for indoor and outdoor use (loaded with a 400 ISO film from Kodak)",
     "website": "https://ilford.com/product/rapid-retro-camera/",
     "launched": 2021,
+    "manual": "",
+    "lomography": "https://www.lomography.com/cameras/3363938-ilford-ilfocolor-rapid-retro-single-use-camera/photos",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22Ilford%20Ilfocolor%20Rapid%20Retro%22",
     "image": "ilford-ilfocolor-rapid-retro.png"
   },
   {
@@ -128,10 +155,13 @@ var currentcameras = [
     "format": "4x5",
     "type": "pinhole",
     "price": 2,
-    "popularity": 0,
+    "popularity": 215,
     "description": "a pinhole camera made from PVC that does not require a film holder",
     "website": "https://www.harmantechnology.com/obscura-by-ilford-pinhole-camera",
     "launched": 2013,
+    "manual": "manuals/ilford-obscura.pdf",
+    "lomography": "https://www.lomography.com/cameras/3349567-ilford-obscura/photos",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22Ilford%20Obscura%22",
     "image": "ilford-obscura.png"
   },
   {
@@ -140,11 +170,13 @@ var currentcameras = [
     "format": "135",
     "type": "point & shoot",
     "price": 1,
-    "popularity": 0,
+    "popularity": 312,
     "description": "a simple focus free reusable plastic camera with built-in flash (available in black and silver)",
     "website": "https://ilford.com/product/sprite-35-ii-camera/",
-    "manual": "manuals/ilford-sprite-35-ii.pdf",
     "launched": 2021,
+    "manual": "manuals/ilford-sprite-35-ii.pdf",
+    "lomography": "https://www.lomography.com/cameras/3363261-ilford-sprite-35-2/photos",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22Ilford%20Sprite%2035-II%22",
     "image": "ilford-sprite-35-ii.png"
   },
   {
@@ -153,11 +185,13 @@ var currentcameras = [
     "format": "135",
     "type": "disposable",
     "price": 1,
-    "popularity": 0,
+    "popularity": 62,
     "description": "a simple focus free plastic camera with built-in flash (loaded with Ilford XP2 super)",
     "website": "https://www.harmantechnology.com/xp2-super-single-use-camera",
-    "manual": "manuals/ilford-xp2-super-single-use-camera.pdf",
     "launched": 2012,
+    "manual": "manuals/ilford-xp2-super-single-use-camera.pdf",
+    "lomography": "https://www.lomography.com/cameras/3350671-ilford-xp2-disposable/photos",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22Ilford%20XP2%20super%20Single%20Use%20Camera%22",
     "image": "ilford-xp2-super-single-use-camera.png"
   },
   {
@@ -166,11 +200,13 @@ var currentcameras = [
     "format": "4x5",
     "type": "view",
     "price": 2,
-    "popularity": 0,
+    "popularity": 2431,
     "description": "A comparatively lightweight camera that can be packed compactly",
     "website": "https://intrepidcamera.co.uk/collections/camera/products/intrepid-4x5-camera",
-    "manual": "",
     "launched": 2022,
+    "manual": "manuals/intrepid-4x5.pdf",
+    "lomography": "https://www.lomography.com/cameras/3361474-intrepid-4x5/photos",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22Intrepid%204x5%22",
     "image": "intrepid-4x5.png"
   },
   {
@@ -179,11 +215,13 @@ var currentcameras = [
     "format": "5x7",
     "type": "view",
     "price": 2,
-    "popularity": 0,
+    "popularity": 30,
     "description": "A comparatively lightweight camera that can be packed compactly",
     "website": "https://intrepidcamera.co.uk/collections/camera/products/intrepid-5x7-camera",
-    "manual": "",
     "launched": 2020,
+    "manual": "manuals/intrepid-5x7.pdf",
+    "lomography": "",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22Intrepid%205x7%22",
     "image": "intrepid-5x7.png"
   },
   {
@@ -192,11 +230,13 @@ var currentcameras = [
     "format": "8x10",
     "type": "view",
     "price": 3,
-    "popularity": 0,
+    "popularity": 649,
     "description": "A comparatively lightweight camera that can be packed compactly",
     "website": "https://intrepidcamera.co.uk/collections/camera/products/intrepid-8x10-camera",
-    "manual": "",
     "launched": 2022,
+    "manual": "manuals/intrepid-8x10.pdf",
+    "lomography": "https://www.lomography.com/cameras/3362454-intrepid-8x10-mk2/photos",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22Intrepid%208x10%22",
     "image": "intrepid-8x10.png"
   },
   {
@@ -205,10 +245,13 @@ var currentcameras = [
     "format": "135",
     "type": "disposable",
     "price": 1,
-    "popularity": 0,
+    "popularity": 199,
     "description": "a simple focus free plastic camera without built-in flash for outdoor use (loaded with Kodak UltraMax 800)",
     "website": "https://imaging.kodakalaris.com/photographers/film/single-use-cameras",
     "launched": 2018,
+    "manual": "",
+    "lomography": "https://www.lomography.com/cameras/3364436-kodak-daylight/photos",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22Kodak%20Daylight%22",
     "image": "kodak-daylight.png"
   },
   {
@@ -217,10 +260,13 @@ var currentcameras = [
     "format": "135",
     "type": "point & shoot",
     "price": 2,
-    "popularity": 0,
+    "popularity": 740,
     "description": "a simple focus free reusable plastic half frame camera with built-in flash (available in four different colors)",
     "website": "https://www.kodak.com/en/consumer/product/cameras/film/h35-film-camera",
     "launched": 2022,
+    "manual": "manuals/kodak-ektar-h35.pdf",
+    "lomography": "https://www.lomography.com/cameras/3365232-kodak-ektar-h35-half-frame-film-camera/photos",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22Kodak%20Ektar%20H35%22",
     "image": "kodak-ektar-h35.png"
   },
   {
@@ -229,10 +275,13 @@ var currentcameras = [
     "format": "135",
     "type": "disposable",
     "price": 1,
-    "popularity": 0,
+    "popularity": 1361,
     "description": "a simple focus free plastic camera with built-in flash for indoor and outdoor use (loaded with Kodak UltraMax 800)",
     "website": "https://imaging.kodakalaris.com/photographers/film/single-use-cameras",
     "launched": 1990,
+    "manual": "",
+    "lomography": "https://www.lomography.com/cameras/3329732-kodak-fun-saver/photos",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22Kodak%20Fun%20Saver%22",
     "image": "kodak-fun-saver.png"
   },
   {
@@ -245,6 +294,9 @@ var currentcameras = [
     "description": "a simple focus free reusable plastic camera with built-in pop-up flash (available in yellow and very peri)",
     "website": "https://www.kodak.com/en/consumer/product/cameras/film/i60",
     "launched": 2021,
+    "manual": "manuals/kodak-i60.pdf",
+    "lomography": "",
+    "flickr": "",
     "image": "kodak-i60.png"
   },
   {
@@ -253,11 +305,13 @@ var currentcameras = [
     "format": "135",
     "type": "point & shoot",
     "price": 1,
-    "popularity": 0,
+    "popularity": 531,
     "description": "a simple focus free reusable plastic camera with built-in flash (available in eight different colors)",
     "website": "https://www.kodak.com/en/consumer/product/cameras/film/m35",
-    "manual": "manuals/kodak-m35.pdf",
     "launched": 2019,
+    "manual": "manuals/kodak-m35.pdf",
+    "lomography": "https://www.lomography.com/cameras/3361028-kodak-m35/photos",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22Kodak%20M35%22",
     "image": "kodak-m35.png"
   },
   {
@@ -266,11 +320,13 @@ var currentcameras = [
     "format": "135",
     "type": "point & shoot",
     "price": 1,
-    "popularity": 0,
+    "popularity": 58,
     "description": "a simple focus free reusable plastic camera with a slightly stronger built-in flash compared to the Kodak M35 (available in seven different colors)",
     "website": "https://www.kodak.com/en/consumer/product/cameras/film/m38",
-    "manual": "manuals/kodak-m38.pdf",
     "launched": 2020,
+    "manual": "manuals/kodak-m38.pdf",
+    "lomography": "https://www.lomography.com/cameras/3362806-kodak-m38/photos",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22Kodak%20M38%22",
     "image": "kodak-m38.png"
   },
   {
@@ -279,10 +335,13 @@ var currentcameras = [
     "format": "135",
     "type": "disposable",
     "price": 1,
-    "popularity": 0,
+    "popularity": 57,
     "description": "a simple focus free plastic camera with built-in flash for outdoor use and low light situations (loaded with Kodak UltraMax 800)",
     "website": "https://imaging.kodakalaris.com/photographers/film/single-use-cameras",
     "launched": 1989,
+    "manual": "",
+    "lomography": "https://www.lomography.com/cameras/3332709-kodak-power-flash-single-use-camera/photos",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22Kodak%20Power%20Flash%22",
     "image": "kodak-power-flash.png"
   },
   {
@@ -291,10 +350,13 @@ var currentcameras = [
     "format": "135",
     "type": "disposable",
     "price": 1,
-    "popularity": 0,
+    "popularity": 1636,
     "description": "a simple focus free plastic camera with built-in flash for indoor and outdoor use (loaded with Kodak TRI-X 400)",
     "website": "https://imaging.kodakalaris.com/photographers/film/single-use-cameras",
     "launched": 2018,
+    "manual": "",
+    "lomography": "https://www.lomography.com/cameras/3365741-kodak-tri-x-400-single-use/photos",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22Kodak%20Professional%20TRI-X%20400%22",
     "image": "kodak-professional-tri-x-400.png"
   },
   {
@@ -303,10 +365,13 @@ var currentcameras = [
     "format": "135",
     "type": "disposable",
     "price": 1,
-    "popularity": 0,
+    "popularity": 582,
     "description": "a simple focus free plastic camera without built-in flash for underwater use (loaded with Kodak UltraMax 800)",
     "website": "https://imaging.kodakalaris.com/photographers/film/single-use-cameras",
     "launched": 1989,
+    "manual": "",
+    "lomography": "https://www.lomography.com/cameras/3321440-kodak-sport-single-use-camera/photos",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22Kodak%20Sport%22",
     "image": "kodak-sport.png"
   },
   {
@@ -315,11 +380,13 @@ var currentcameras = [
     "format": "135",
     "type": "point & shoot",
     "price": 2,
-    "popularity": 0,
+    "popularity": 16,
     "description": "a simple focus free reusable plastic camera with built-in flash (available in yellow and green)",
     "website": "https://www.kodak.com/en/consumer/product/cameras/film/kodak-film-camera-ultra-f9",
-    "manual": "manuals/kodak-ultra-f9.pdf",
     "launched": 2021,
+    "manual": "manuals/kodak-ultra-f9.pdf",
+    "lomography": "https://www.lomography.com/cameras/3364586-kodak-ultra-f9/photos",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22Kodak%20Ultra%20F9%22",
     "image": "kodak-ultra-f9.png"
   },
   {
@@ -328,11 +395,13 @@ var currentcameras = [
     "format": "135",
     "type": "rangefinder",
     "price": 3,
-    "popularity": 0,
+    "popularity": 221621,
     "description": "a rangefinder camera with built-in light meter",
     "website": "https://leica-camera.com/de-DE/fotografie/kameras/m/m6",
-    "manual": "manuals/leica-m6.pdf",
     "launched": 1984,
+    "manual": "manuals/leica-m6.pdf",
+    "lomography": "https://www.lomography.com/cameras/3348788-leica-m6/photos",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22Leica%20M6%22",
     "image": "leica-m6.png"
   },
   {
@@ -341,11 +410,13 @@ var currentcameras = [
     "format": "135",
     "type": "rangefinder",
     "price": 3,
-    "popularity": 0,
+    "popularity": 4161,
     "description": "a purely mechanical rangefinder camera (available in black, silver and titan)",
     "website": "https://leica-camera.com/de-DE/fotografie/kameras/m/m-a-typ-127-silbern",
-    "manual": "manuals/leica-m-a.pdf",
     "launched": 2014,
+    "manual": "manuals/leica-m-a.pdf",
+    "lomography": "https://www.lomography.com/cameras/3357280-leica-m-a/photos",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22Leica%20M-A%22",
     "image": "leica-m-a.png"
   },
   {
@@ -354,11 +425,13 @@ var currentcameras = [
     "format": "135",
     "type": "rangefinder",
     "price": 3,
-    "popularity": 0,
+    "popularity": 67682,
     "description": "a rangefinder camera with built-in light meter (available in black and silver)",
     "website": "https://leica-camera.com/de-DE/fotografie/kameras/m/mp-silbern",
-    "manual": "manuals/leica-mp.pdf",
     "launched": 2003,
+    "manual": "manuals/leica-mp.pdf",
+    "lomography": "https://www.lomography.com/cameras/3319962-leica-mp/photos",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22Leica%20MP%22",
     "image": "leica-mp.png"
   },
   {
@@ -367,10 +440,13 @@ var currentcameras = [
     "format": "4x5",
     "type": "view",
     "price": 3,
-    "popularity": 0,
+    "popularity": 18,
     "description": "a high-quality flexible camera system",
     "website": "https://linhof.com/master-technika-3000-2/",
     "launched": 2006,
+    "manual": "manuals/linhof-master-technika-3000.pdf",
+    "lomography": "",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22Linhof%20Master%20Technika%203000%22",
     "image": "linhof-master-technika-3000.png"
   },
   {
@@ -379,10 +455,13 @@ var currentcameras = [
     "format": "4x5",
     "type": "view",
     "price": 3,
-    "popularity": 0,
+    "popularity": 50,
     "description": "a high-quality flexible camera system",
     "website": "https://linhof.com/master-technika-classic-2/",
     "launched": 2006,
+    "manual": "manuals/linhof-master-technika-classic.pdf",
+    "lomography": "",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22Linhof%20Master%20Technika%20classic%22",
     "image": "linhof-master-technika-classic.png"
   },
   {
@@ -391,10 +470,13 @@ var currentcameras = [
     "format": "120",
     "type": "view",
     "price": 3,
-    "popularity": 0,
+    "popularity": 754,
     "description": "a high-quality flexible camera system",
     "website": "https://linhof.com/linhof-techno/",
     "launched": 2008,
+    "manual": "manuals/linhof-techno.pdf",
+    "lomography": "",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22Linhof%20Techno%22",
     "image": "linhof-techno.png"
   },
   {
@@ -403,10 +485,13 @@ var currentcameras = [
     "format": "135",
     "type": "point & shoot",
     "price": 1,
-    "popularity": 0,
+    "popularity": 4276,
     "description": "a simple focus free plastic camera that takes four exposures with each shutter release",
-    "website": "https://shop.lomography.com/actionsampler-clear",
+    "website": "https://microsites.lomography.com/actionsampler/",
     "launched": 1998,
+    "manual": "manuals/lomography-actionsampler.pdf",
+    "lomography": "https://www.lomography.com/cameras/3314879-lomography-actionsampler/photos",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22Lomography%20ActionSampler%22",
     "image": "lomography-actionsampler-clear.png"
   },
   {
@@ -415,10 +500,13 @@ var currentcameras = [
     "format": "110",
     "type": "point & shoot",
     "price": 1,
-    "popularity": 0,
+    "popularity": 151,
     "description": "a simple focus free plastic camera with interchangeable lenses",
     "website": "https://microsites.lomography.com/110-cameras/",
     "launched": 2012,
+    "manual": "manuals/lomography-diana-baby.pdf",
+    "lomography": "https://www.lomography.com/cameras/3343868-lomography-diana-baby-110/photos",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22Lomography%20Diana%20Baby%22",
     "image": "lomography-diana-baby.png"
   },
   {
@@ -427,10 +515,13 @@ var currentcameras = [
     "format": "120",
     "type": "point & shoot",
     "price": 2,
-    "popularity": 0,
+    "popularity": 3553,
     "description": "a simple plastic camera with three focus zones that can be switched between different formats",
     "website": "https://microsites.lomography.com/diana/",
     "launched": 2007,
+    "manual": "manuals/lomography-diana-f-plus.pdf",
+    "lomography": "https://www.lomography.com/cameras/3314900-lomography-diana-f/photos",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22Lomography%20Diana%20F+%22",
     "image": "lomography-diana-f-plus.png"
   },
   {
@@ -439,10 +530,13 @@ var currentcameras = [
     "format": "135",
     "type": "point & shoot",
     "price": 2,
-    "popularity": 0,
+    "popularity": 1716,
     "description": "a simple plastic camera with four focus zones that can be switched between different formats",
     "website": "https://microsites.lomography.com/diana-mini/",
     "launched": 2012,
+    "manual": "manuals/lomography-diana-mini.pdf",
+    "lomography": "https://www.lomography.com/cameras/3319493-lomography-diana-mini-flash-half-frame-square-camera/photos",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22Lomography%20Diana%20Mini%22",
     "image": "lomography-diana-mini.png"
   },
   {
@@ -451,10 +545,13 @@ var currentcameras = [
     "format": "120",
     "type": "pinhole",
     "price": 1,
-    "popularity": 0,
+    "popularity": 25,
     "description": "a plastic camera with three pinholes and color gels that can be switched between different formats",
     "website": "https://microsites.lomography.com/diana/",
     "launched": 2009,
+    "manual": "",
+    "lomography": "https://www.lomography.com/cameras/3318418-lomography-diana-multi-pinhole-operator/photos",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22Lomography%20Diana%20Multi%20Pinhole%20Operator%22",
     "image": "lomography-diana-multi-pinhole-operator.png"
   },
   {
@@ -463,10 +560,13 @@ var currentcameras = [
     "format": "110",
     "type": "point & shoot",
     "price": 1,
-    "popularity": 0,
+    "popularity": 100,
     "description": "a simple focus free plastic camera with a fisheye lens",
     "website": "https://microsites.lomography.com/110-cameras/",
     "launched": 2012,
+    "manual": "manuals/lomography-fisheye-baby.pdf",
+    "lomography": "https://www.lomography.com/cameras/3342480-lomography-fisheye-baby-110/photos",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22Lomography%20Fisheye%20Baby%22",
     "image": "lomography-fisheye-baby.png"
   },
   {
@@ -475,10 +575,13 @@ var currentcameras = [
     "format": "135",
     "type": "point & shoot",
     "price": 2,
-    "popularity": 0,
+    "popularity": 1085,
     "description": "a simple focus free plastic camera with a fisheye lens and built-in flash",
     "website": "https://microsites.lomography.com/fisheye/",
     "launched": 2011,
+    "manual": "manuals/lomography-fisheye-no-2.pdf",
+    "lomography": "https://www.lomography.com/cameras/3314877-lomography-fisheye-no-2/photos",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22Lomography%20Fisheye%20No.%202%22",
     "image": "lomography-fisheye-no-2.png"
   },
   {
@@ -487,10 +590,13 @@ var currentcameras = [
     "format": "135",
     "type": "point & shoot",
     "price": 2,
-    "popularity": 0,
+    "popularity": 388,
     "description": "a focus free mechanical panorama camera with a fixed aperture",
     "website": "https://microsites.lomography.com/horizon/horizon-kompakt/",
     "launched": 2005,
+    "manual": "",
+    "lomography": "https://www.lomography.com/cameras/3315044-horizon-kompakt/photos",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22Lomography%20Horizon%20Kompakt%22",
     "image": "lomography-horizon-kompakt.png"
   },
   {
@@ -499,10 +605,13 @@ var currentcameras = [
     "format": "135",
     "type": "point & shoot",
     "price": 2,
-    "popularity": 0,
+    "popularity": 209,
     "description": "a focus free mechanical panorama camera with variable aperture and shutter speed",
     "website": "https://microsites.lomography.com/horizon/horizon-perfekt/",
     "launched": 2005,
+    "manual": "",
+    "lomography": "https://www.lomography.com/cameras/3315211-horizon-perfekt/photos",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22Lomography%20Horizon%20Perfekt%22",
     "image": "lomography-horizon-perfekt.png"
   },
   {
@@ -511,10 +620,13 @@ var currentcameras = [
     "format": "135",
     "type": "point & shoot",
     "price": 2,
-    "popularity": 0,
+    "popularity": 8,
     "description": "a plastic camera where the lens can be filled with (colored) liquid",
     "website": "https://shop.lomography.com/hydrochrome-sutton-s-panoramic-belair-camera",
     "launched": 2020,
+    "manual": "manuals/lomography-hydrochrome-suttons-panoramic-belair.pdf",
+    "lomography": "https://www.lomography.com/cameras/3362440-hydrochrome-sutton-s-panoramic-belair-camera/photos",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22Lomography%20HydroChrome%20Sutton%E2%80%99s%20Panoramic%20Belair%22",
     "image": "lomography-hydrochrome-suttons-panoramic-belair.png"
   },
   {
@@ -523,10 +635,13 @@ var currentcameras = [
     "format": "135",
     "type": "single-lens reflex",
     "price": 1,
-    "popularity": 0,
+    "popularity": 1249,
     "description": "a plastic single-lens reflex camera that you have to assemble yourself",
     "website": "https://microsites.lomography.com/konstruktor/",
     "launched": 2013,
+    "manual": "manuals/lomography-konstruktor.pdf",
+    "lomography": "https://www.lomography.com/cameras/3348389-lomography-konstruktor/photos",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22Lomography%20Konstruktor%22",
     "image": "lomography-konstruktor.png"
   },
   {
@@ -535,10 +650,13 @@ var currentcameras = [
     "format": "135",
     "type": "point & shoot",
     "price": 2,
-    "popularity": 0,
+    "popularity": 1924,
     "description": "a plastic camera with two focus zones and a flash (available in a wide range of editions)",
     "website": "https://microsites.lomography.com/la-sardina/",
     "launched": 2011,
+    "manual": "",
+    "lomography": "https://www.lomography.com/cameras/3334778-lomography-la-sardina/photos",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22Lomography%20La%20Sardina%22",
     "image": "lomography-la-sardina.png"
   },
   {
@@ -547,10 +665,13 @@ var currentcameras = [
     "format": "135",
     "type": "point & shoot",
     "price": 2,
-    "popularity": 0,
+    "popularity": 392,
     "description": "a plastic camera with four focus zones, built-in light meter and automatic exposure",
     "website": "https://microsites.lomography.com/lca+/",
     "launched": 2006,
+    "manual": "manuals/lomography-lomo-lc-a-plus.pdf",
+    "lomography": "https://www.lomography.com/cameras/3314962-lomo-lc-a/photos",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22Lomography%20Lomo%20LC-A+%22",
     "image": "lomography-lomo-lc-a-plus.png"
   },
   {
@@ -559,10 +680,13 @@ var currentcameras = [
     "format": "120",
     "type": "point & shoot",
     "price": 2,
-    "popularity": 0,
+    "popularity": 25,
     "description": "a plastic camera with four focus zones, built-in light meter and automatic exposure",
     "website": "https://microsites.lomography.com/lca-120/",
     "launched": 2014,
+    "manual": "",
+    "lomography": "https://www.lomography.com/cameras/3352400-lomo-lc-a-120/photos",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22Lomography%20Lomo%20LC-A%20120%22",
     "image": "lomography-lomo-lc-a-120.png"
   },
   {
@@ -571,10 +695,13 @@ var currentcameras = [
     "format": "135",
     "type": "point & shoot",
     "price": 2,
-    "popularity": 0,
+    "popularity": 43,
     "description": "a plastic camera that can be switched between full, half and square frame",
     "website": "https://microsites.lomography.com/lc-wide/",
     "launched": 2011,
+    "manual": "manuals/lomography-lomo-lc-wide.pdf",
+    "lomography": "https://www.lomography.com/cameras/3334141-lomo-lc-wide/photos",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22Lomography%20Lomo%20LC-Wide%22",
     "image": "lomography-lomo-lc-wide.png"
   },
   {
@@ -587,6 +714,9 @@ var currentcameras = [
     "description": "a cardboard camera that you have to assemble yourself and where the lens can be filled with (colored) liquid",
     "website": "https://www.lomography.com/lomomod",
     "launched": 2019,
+    "manual": "manuals/lomography-lomomod-no-1.pdf",
+    "lomography": "https://www.lomography.com/cameras/3360774-lomomod-no-1/photos",
+    "flickr": "",
     "image": "lomography-lomomod-no-1.png"
   },
   {
@@ -595,10 +725,13 @@ var currentcameras = [
     "format": "120",
     "type": "twin-lens reflex",
     "price": 2,
-    "popularity": 0,
+    "popularity": 2163,
     "description": "a mechanical plastic camera with a glass lens that can be switched between different formats",
     "website": "https://microsites.lomography.com/lubitel166+/",
     "launched": 2008,
+    "manual": "manuals/lomography-lomo-lubitel-166-plus.pdf",
+    "lomography": "https://www.lomography.com/cameras/3315480-lomo-lubitel-166/photos",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22Lomo%20Lubitel%20166+%22",
     "image": "lomography-lomo-lubitel-166-plus.png"
   },
   {
@@ -611,6 +744,9 @@ var currentcameras = [
     "description": "a simple focus free plastic camera with flash",
     "website": "https://microsites.lomography.com/simple-use-film-camera/",
     "launched": 2017,
+    "manual": "",
+    "lomography": "",
+    "flickr": "",
     "image": "lomography-simple-use-reloadable-black-and-white.png"
   },
   {
@@ -623,6 +759,9 @@ var currentcameras = [
     "description": "a simple focus free plastic camera with built-in flash color filters",
     "website": "https://microsites.lomography.com/simple-use-film-camera/",
     "launched": 2017,
+    "manual": "",
+    "lomography": "",
+    "flickr": "",
     "image": "lomography-simple-use-reloadable-color-negative.png"
   },
   {
@@ -635,6 +774,9 @@ var currentcameras = [
     "description": "a simple focus free plastic camera with built-in flash color filters",
     "website": "https://microsites.lomography.com/simple-use-film-camera/",
     "launched": 2020,
+    "manual": "",
+    "lomography": "https://www.lomography.com/cameras/3361403-simple-use-reloadable-film-camera-lomochrome-metropolis/photos",
+    "flickr": "",
     "image": "lomography-simple-use-reloadable-lomochrome-metropolis.png"
   },
   {
@@ -647,6 +789,9 @@ var currentcameras = [
     "description": "a simple focus free plastic camera with built-in flash color filters",
     "website": "https://microsites.lomography.com/simple-use-film-camera/",
     "launched": 2017,
+    "manual": "",
+    "lomography": "https://www.lomography.com/cameras/3359377-simple-use-film-camera-lomochrome-purple/photos",
+    "flickr": "",
     "image": "lomography-simple-use-reloadable-lomochrome-purple.png"
   },
   {
@@ -655,10 +800,13 @@ var currentcameras = [
     "format": "135",
     "type": "point & shoot",
     "price": 2,
-    "popularity": 0,
+    "popularity": 2234,
     "description": "a simple focus free plastic panorama camera that also exposes the film sprocket holes",
     "website": "https://microsites.lomography.com/sprocketrocket/",
     "launched": 2010,
+    "manual": "manuals/lomography-sprocket-rocket.pdf",
+    "lomography": "https://www.lomography.com/cameras/3328515-lomography-sprocket-rocket/photos",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22Lomography%20Sprocket%20Rocket%22",
     "image": "lomography-sprocket-rocket.png"
   },
   {
@@ -667,10 +815,13 @@ var currentcameras = [
     "format": "135",
     "type": "pinhole",
     "price": 2,
-    "popularity": 0,
+    "popularity": 414,
     "description": "a pinhole camera made out of wood for panorama photos",
     "website": "https://ondupinhole.com/products/135-panoramic-pinhole-camera",
     "launched": 2015,
+    "manual": "",
+    "lomography": "https://www.lomography.com/cameras/3353457-ondu-135-panoramic-pinhole-camera/photos",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22ONDU%20135%20Panoramic%22",
     "image": "ondu-135-panoramic.png"
   },
   {
@@ -679,10 +830,13 @@ var currentcameras = [
     "format": "135",
     "type": "pinhole",
     "price": 2,
-    "popularity": 0,
+    "popularity": 42,
     "description": "a pinhole camera made out of wood",
     "website": "https://ondupinhole.com/products/135-pocket-pinhole-camera",
     "launched": 2015,
+    "manual": "",
+    "lomography": "https://www.lomography.com/cameras/3352900-ondu-135/photos",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22ONDU%20135%20Pocket%22",
     "image": "ondu-135-pocket.png"
   },
   {
@@ -691,10 +845,13 @@ var currentcameras = [
     "format": "4x5",
     "type": "pinhole",
     "price": 2,
-    "popularity": 0,
+    "popularity": 24,
     "description": "a large format pinhole camera made out of wood",
     "website": "https://ondupinhole.com/products/4x5-large-format",
     "launched": 2015,
+    "manual": "",
+    "lomography": "https://www.lomography.com/cameras/3353696-ondu-4x5/photos",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22ONDU%204x5%20Large%20Format%22",
     "image": "ondu-4x5-large-format.png"
   },
   {
@@ -707,6 +864,9 @@ var currentcameras = [
     "description": "a large format pinhole camera made out of wood",
     "website": "https://ondupinhole.com/products/4x5-large-rise",
     "launched": 2015,
+    "manual": "",
+    "lomography": "",
+    "flickr": "",
     "image": "ondu-4x5-large-format-rise.png"
   },
   {
@@ -715,10 +875,13 @@ var currentcameras = [
     "format": "120",
     "type": "pinhole",
     "price": 2,
-    "popularity": 0,
+    "popularity": 109,
     "description": "a medium format pinhole camera made out of wood for panorama photos",
     "website": "https://ondupinhole.com/products/6x12-multiformat",
     "launched": 2015,
+    "manual": "",
+    "lomography": "https://www.lomography.com/cameras/3355527-ondu-6x12-multiformat-pinhole-camera/photos",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22ONDU%206x12%20Multiformat%22",
     "image": "ondu-6x12-multiformat.png"
   },
   {
@@ -727,10 +890,13 @@ var currentcameras = [
     "format": "120",
     "type": "pinhole",
     "price": 2,
-    "popularity": 0,
+    "popularity": 4,
     "description": "a medium format pinhole camera made out of wood for panorama photos",
     "website": "https://ondupinhole.com/products/6x12-rise",
     "launched": 2015,
+    "manual": "",
+    "lomography": "https://www.lomography.com/cameras/3361719-ondu-6x12-rise/photos",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22ONDU%206x12%20Rise%22",
     "image": "ondu-6x12-rise.png"
   },
   {
@@ -739,10 +905,13 @@ var currentcameras = [
     "format": "120",
     "type": "pinhole",
     "price": 2,
-    "popularity": 0,
+    "popularity": 21,
     "description": "a medium format pinhole camera made out of wood for square photos",
     "website": "https://ondupinhole.com/products/6x6-pocket",
     "launched": 2015,
+    "manual": "",
+    "lomography": "https://www.lomography.com/cameras/3353241-ondu-6x6/photos",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22ONDU%206x6%20Pocket%22",
     "image": "ondu-6x6-pocket.png"
   },
   {
@@ -751,10 +920,13 @@ var currentcameras = [
     "format": "120",
     "type": "pinhole",
     "price": 2,
-    "popularity": 0,
+    "popularity": 58,
     "description": "a medium format pinhole camera made out of wood for square photos",
     "website": "https://ondupinhole.com/products/6x6-rise",
     "launched": 2015,
+    "manual": "",
+    "lomography": "https://www.lomography.com/cameras/3365029-ondu-6x6-rise/photos",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22ONDU%206x6%20Rise%22",
     "image": "ondu-6x6-rise.png"
   },
   {
@@ -767,6 +939,9 @@ var currentcameras = [
     "description": "a medium format pinhole camera made out of wood",
     "website": "https://ondupinhole.com/products/6x9-classic",
     "launched": 2015,
+    "manual": "",
+    "lomography": "https://www.lomography.com/cameras/3359880-ondu-6x9-pinhole-camera/photos",
+    "flickr": "",
     "image": "ondu-6x9-classic.png"
   },
   {
@@ -775,10 +950,13 @@ var currentcameras = [
     "format": "120",
     "type": "pinhole",
     "price": 2,
-    "popularity": 0,
+    "popularity": 96,
     "description": "a medium format pinhole camera made out of wood",
     "website": "https://ondupinhole.com/products/6x9-rise",
     "launched": 2015,
+    "manual": "",
+    "lomography": "https://www.lomography.com/cameras/3361384-ondu-6x9-rise/photos",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22ONDU%206x9%20Rise%22",
     "image": "ondu-6x9-rise.png"
   },
   {
@@ -787,10 +965,13 @@ var currentcameras = [
     "format": "8x10",
     "type": "pinhole",
     "price": 2,
-    "popularity": 0,
+    "popularity": 4,
     "description": "a large format pinhole camera made out of wood",
     "website": "https://ondupinhole.com/products/8x10-giant-pinhole-camera",
     "launched": 2015,
+    "manual": "",
+    "lomography": "",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22ONDU%208x10%20Giant%22",
     "image": "ondu-8x10-giant.png"
   },
   {
@@ -799,10 +980,13 @@ var currentcameras = [
     "format": "135",
     "type": "point & shoot",
     "price": 1,
-    "popularity": 0,
+    "popularity": 984,
     "description": "a simple focus free reusable plastic camera with a wide-angle lens (available in blue, cream, charcoal, olive, pink, teal and yellow)",
     "website": "https://retoproject.com/products/reto-ultra-wide-slim-film-camera",
     "launched": 2022,
+    "manual": "",
+    "lomography": "https://www.lomography.com/cameras/3365175-reto-ultra-wide-slim/photos",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22RETO%20Ultra%20Wide%20&%20Slim%22",
     "image": "reto-ultra-wide-and-slim.png"
   },
   {
@@ -815,6 +999,9 @@ var currentcameras = [
     "description": "a focus free reusable plastic camera with three lenses for creating animated Gifs with a 3D effect",
     "website": "https://retoproject.com/products/reto3d-classic",
     "launched": 2019,
+    "manual": "",
+    "lomography": "https://www.lomography.com/cameras/3361227-reto3d/photos",
+    "flickr": "",
     "image": "reto3d-classic.png"
   },
   {
@@ -824,10 +1011,12 @@ var currentcameras = [
     "type": "twin-lens reflex",
     "price": 1,
     "popularity": 0,
-    "description": "a focusable plastic twin-lens reflex camera with two apertures that you have to assemble yourself",
+    "description": "a focusable plastic twin-lens reflex camera with two apertures that you have to assemble yourself, also known as Recesky TLR",
     "website": "http://www.somikon.de/DIY-Kamera-kit-NC-9949-919.shtml",
-    "manual": "manuals/somikon-twin-lens-reflex.pdf",
     "launched": 2013,
+    "manual": "manuals/somikon-twin-lens-reflex.pdf",
+    "lomography": "https://www.lomography.com/cameras/3352268-somikon-tlr/photos",
+    "flickr": "",
     "image": "somikon-twin-lens-reflex.png"
   },
   {
@@ -837,9 +1026,12 @@ var currentcameras = [
     "type": "twin-lens reflex",
     "price": 2,
     "popularity": 0,
-    "description": "a focusable plastic twin-lens reflex camera with two apertures (available in black, blue, red, orange, yellow and white)",
+    "description": "a focusable plastic twin-lens reflex camera (available in black, blue, red, orange, yellow and white)",
     "website": "",
     "launched": 2008,
+    "manual": "",
+    "lomography": "https://www.lomography.com/cameras/3318501-blackbird-fly/photos",
+    "flickr": "",
     "image": "superheadz-powershovel-blackbird-fly.png"
   },
   {
@@ -848,10 +1040,13 @@ var currentcameras = [
     "format": "135",
     "type": "point & shoot",
     "price": 1,
-    "popularity": 0,
+    "popularity": 20,
     "description": "a simple focus free reusable plastic camera with built-in flash (available in black, golden, green, pink, red and silver)",
     "website": "",
     "launched": 2021,
+    "manual": "",
+    "lomography": "https://www.lomography.com/cameras/3362284-vibe-501f/photos",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22Vibe%20501F%22",
     "image": "vibe-501f.png"
   },
   {
@@ -860,10 +1055,13 @@ var currentcameras = [
     "format": "135",
     "type": "point & shoot",
     "price": 1,
-    "popularity": 0,
+    "popularity": 401,
     "description": "a simple focus free reusable plastic camera with built-in flash",
     "website": "https://www.yashica.com/mf-1",
     "launched": 2019,
+    "manual": "",
+    "lomography": "https://www.lomography.com/cameras/3325315-yashica-mf-1/photos",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22Yashica%20MF-1%22",
     "image": "yashica-mf-1.png"
   },
   {
@@ -872,10 +1070,13 @@ var currentcameras = [
     "format": "135",
     "type": "point & shoot",
     "price": 2,
-    "popularity": 0,
+    "popularity": 43,
     "description": "a simple focus free reusable plastic camera with built-in flash and light sensor",
     "website": "https://www.yashica.com/copy-of-mf-1-snapshot-art-camera",
     "launched": 2020,
+    "manual": "",
+    "lomography": "https://www.lomography.com/cameras/3337719-yashica-mf-2-super/photos",
+    "flickr": "https://www.flickr.com/search/?media=photos&text=%22Yashica%20MF-2%20super%20DX%22",
     "image": "yashica-mf-2-super-dx.png"
   }
 ]

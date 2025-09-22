@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>new analog camera space - faq</title>
+  <meta name="description" content="A database of currently available new analog cameras">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://new.analogcamera.space/faq">
+  <meta property="og:title" content="new analog camera space - faq">
+  <meta property="og:description" content="A database of currently available new analog cameras">
+  <meta property="og:image" content="https://new.analogcamera.space/preview.png">
+  <meta property="og:image:secure_url" content="https://new.analogcamera.space/preview.png">
+  <meta property="og:image:width" content="640"> 
+  <meta property="og:image:height" content="320">
+
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://new.analogcamera.space/faq">
+  <meta property="twitter:title" content="new analog camera space - faq">
+  <meta property="twitter:description" content="A database of currently available new analog cameras">
+  <meta property="twitter:image" content="https://new.analogcamera.space/preview.png">
+
+  <link href="manifest.webmanifest" rel="manifest">
+  <link href="favicon.svg" rel="icon">
+  <link href="favicon.svg" rel="shortcut icon">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="fonts/ek-mukta-400-latin.woff2" rel="preload" as="font" type="font/woff2" crossorigin>
+  <link href="fonts/ek-mukta-700-latin.woff2" rel="preload" as="font" type="font/woff2" crossorigin>
+</head>
+<body class="dark">
+  <div id="faq">
+    <header>
+      <div class="switch" v-on:click="toggle"></div>
+      <h1><a href="/"><span>new.</span>analog camera<span>.space</span></a></h1>
+      <p>a database of currently available new analog cameras</p>
+      <nav><a href="/">overview</a> / <a href="/faq" class="active">frequently asked questions</a></nav>
+    </header>
+    <main>
+      <ul>
+        <li>
+          <h2>Why isn’t camera x listed on this site?</h2>
+          <p>This site attempts to list all analog still cameras that are still produced and (more or less) widely available.</p>
+          <p>You can check the list of excluded cameras or request the addition of a camera in case I missed one!</p>
+          <aside>
+            <div><a href="https://github.com/sebastianlay/analog-camera-space/wiki/Unlisted-cameras" target="_blank" rel="noopener noreferrer">Excluded Cameras</a></div>
+            <div><a href="https://github.com/sebastianlay/analog-camera-space/issues" target="_blank" rel="noopener noreferrer">Request Camera</a></div>
+          </aside>
+        </li>
+        <li>
+          <h2>What about the price ranges?</h2>
+          <p>Prices are always chaning and so I give only rough estimates for what you should expect to pay.</p>
+          <p>Please be aware that used analog cameras usually give you way better value for your money.</p>
+          <p>€ - cheap (less than 50 €)<br>€€ - moderate (less than 500€)<br>€€€ - expensive (more than 500€)</p>
+        </li>
+        <li>
+          <h2>How is the popularity measured?</h2>
+          <p>It’s not easy to measure this. Currently it’s just the number of search results on a popular photo site. I’m very open to alternative ideas! Please let me know via the issues in the repository on GitHub if you have an idea:</p>
+          <aside>
+            <div><a href="https://github.com/sebastianlay/analog-camera-space/issues" target="_blank" rel="noopener noreferrer">GitHub Repository</a></div>
+          </aside>
+        </li>
+        <li>
+          <h2>What about films that are needed for these cameras?</h2>
+          <p>I’m glad you asked! I have also created a sister site to this one where I attempt to list all analog films that are still in production and are widely available.</p>
+          <p>You can check it out here:</p>
+          <aside>
+            <div><a href="https://analogfilm.space/" target="_blank" rel="noopener noreferrer">analogfilm.space</a></div>
+          </aside>
+        </li>
+        <li>
+          <h2>Who runs this site?</h2>
+          <p>This site is made by me, Sebastian. I’m happy to take your comments, additions and corrections to this site! Meanwhile you can find some of my personal photography on my personal website:</p>
+          <aside>
+            <div><a href="https://fotos.sebastian-lay.de/" target="_blank" rel="noopener noreferrer">Personal Website</a></div>
+          </aside>
+        </li>
+      </ul>
+    </main>
+  </div>
+  <script src="js/vue.global.prod.js"></script>
+  <script src="js/script-faq.js?d=20230709"></script>
+</body>
+</html>

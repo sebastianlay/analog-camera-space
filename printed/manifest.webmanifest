@@ -1,0 +1,20 @@
+{
+  "name": "analog camera",
+  "short_name": "analog camera",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ccc",
+  "theme_color": "#000",
+  "description": "a database of analog cameras that can be 3D printed",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any maskable"
+    },
+    {
+      "src": "apple-touch-icon-precomposed.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ]
+}

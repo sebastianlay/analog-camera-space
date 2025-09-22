@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>printed analog camera space</title>
+  <meta name="description" content="A database of analog cameras that can be 3D printed">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://printed.analogcamera.space/">
+  <meta property="og:title" content="printed analog camera space">
+  <meta property="og:description" content="A database of analog cameras that can be 3D printed">
+  <meta property="og:image" content="https://printed.analogcamera.space/preview.png">
+  <meta property="og:image:secure_url" content="https://printed.analogcamera.space/preview.png">
+  <meta property="og:image:width" content="640"> 
+  <meta property="og:image:height" content="320">
+
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://printed.analogcamera.space/">
+  <meta property="twitter:title" content="printed analog camera space">
+  <meta property="twitter:description" content="A database of analog cameras that can be 3D printed">
+  <meta property="twitter:image" content="https://printed.analogcamera.space/preview.png">
+
+  <link href="manifest.webmanifest" rel="manifest">
+  <link href="favicon.svg" rel="icon">
+  <link href="favicon.svg" rel="shortcut icon">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="fonts/ek-mukta-400-latin.woff2" rel="preload" as="font" type="font/woff2" crossorigin>
+  <link href="fonts/ek-mukta-700-latin.woff2" rel="preload" as="font" type="font/woff2" crossorigin>
+</head>
+<body class="dark">
+  <div id="app">
+    <header>
+      <div class="switch" v-on:click="toggle"></div>
+      <h1><a href="/"><span>printed.</span>analog camera<span>.space</span></a></h1>
+      <p>a database of analog cameras that can be 3D printed</p>
+      <nav><a href="/" class="active">overview</a> / <a href="/faq">frequently asked questions</a></nav>
+    </header>
+    <main>
+      <aside>
+        <section>
+          <input placeholder="search" v-model="search" aria-label="search" class="search" />
+          <select v-model="type" aria-label="camera type">
+            <option value="all">all lens types</option>
+            <option value="large format lens">large format lens</option>
+            <option value="mamiya press lens">mamiya press lens</option>
+            <option value="nikon f lens">nikon f lens</option>
+            <option value="pinhole">pinhole</option>
+            <option value="printed lens">printed lens</option>
+          </select>
+          <select v-model="format" aria-label="camera format">
+            <option value="all">all formats</option> 
+            <option value="110">110 - pocket film</option>
+            <option value="120">120 - medium format</option>
+            <option value="135">135 - 35mm film</option>
+            <option value="4x5">4x5" - large format</option>
+            <option value="5x7">5x7" - large format</option>
+            <option value="8x10">8x10" - large format</option>
+          </select>
+        </section>
+        <section>
+          <label>sort by</label> 
+          <button v-on:click="sort" v-bind:class="[ sortBy === 'popularity' ? 'active' : '', sortBy === 'popularity' ? sortDir : '' ]">popularity</button>
+          <button v-on:click="sort" v-bind:class="[ sortBy === 'name' ? 'active' : '', sortBy === 'name' ? sortDir : '' ]">name</button>
+          <button v-on:click="sort" v-bind:class="[ sortBy === 'price' ? 'active' : '', sortBy === 'price' ? sortDir : '' ]">price</button>
+          <button v-on:click="sort" v-bind:class="[ sortBy === 'date' ? 'active' : '', sortBy === 'date' ? sortDir : '' ]">date</button>
+        </section>
+      </aside>
+      <ul v-cloak>
+        <li v-for="camera in cameras">
+          <img :src="'images/small/' + camera.image" :srcset="'images/small/' + camera.image + ' 1x, images/' + camera.image + ' 2x'" :alt="camera.name">
+          <h2>{{camera.name}}</h2>
+          <p>
+            <span v-if="camera.description">{{camera.description}}</span>
+            <span>
+              <a v-if="camera.website" :href="camera.website" target="_blank" rel="noopener">website</a>
+              <a v-if="camera.printfiles" :href="camera.printfiles" target="_blank" rel="noopener">print files</a>
+            </span>
+          </p>
+          <aside>
+            <div title="camera type">{{camera.type}}</div>
+            <div title="camera format">{{camera.format}}</div>
+            <div title="camera launched/updated" v-if="camera.launched">{{camera.launched}}</div>
+            <div title="price range">{{formatPrice(camera.price)}}</div>
+          </aside>
+        </li>
+        <li v-if="cameras.length === 0">
+          <h2>Nothing found :(</h2>
+          <p>
+            <span>None of the cameras match the seleted criteria.</span>
+            <span>Adjust the search term or filters to find any results.</span>
+          </p>
+          <aside>
+            <div><a v-on:click="reset">Clear all filters</a></div>
+          </aside>
+        </li>
+      </ul>
+    </main>
+  </div>
+  <script src="js/current-cameras.js?d=20250922"></script>
+  <script src="js/vue.global.prod.js"></script>
+  <script src="js/script-index.js?d=20250922"></script>
+</body>
+</html>

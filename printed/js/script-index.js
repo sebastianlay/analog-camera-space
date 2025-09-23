@@ -5,7 +5,7 @@ Vue.createApp({
     search: '',
     type: 'all',
     format: 'all',
-    sortBy: 'popularity',
+    sortBy: 'date',
     sortDir: 'desc'
     }
   },
@@ -50,8 +50,6 @@ Vue.createApp({
         var first = a.name.toLowerCase() + a.format;
         var second = b.name.toLowerCase() + b.format;
         switch(sortBy) {
-          case 'popularity':
-            return a.popularity - b.popularity || first.localeCompare(second);
           case 'name':
             return first.localeCompare(second);
           case 'price':

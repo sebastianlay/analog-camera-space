@@ -253,7 +253,7 @@ li aside div, .link {
   text-align: center;
   font-size: 16px;
   color: #666;
-  padding: 13px 15px;
+  padding: 13px;
   border-right: 1px solid #ddd;
   flex-grow: 1;
 }

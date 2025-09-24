@@ -12,6 +12,18 @@ var currentcameras = [
     "image": "3d-printed-pinhole.png"
   },
   {
+    "maker": "Torsten Spiller",
+    "name": "Agfa Ansco Plenax PD 16 Conversion",
+    "format": "120",
+    "type": "large format lens",
+    "price": 0,
+    "description": "a 6x12 camera for large format lenses",
+    "website": "",
+    "launched": 2018,
+    "printfiles": "https://www.thingiverse.com/thing:3252136",
+    "image": "agfa-ansco-plenax-pd-16-conversion.png"
+  },
+  {
     "maker": "Damien Humby",
     "name": "Argent Eye",
     "format": "120",
@@ -204,6 +216,30 @@ var currentcameras = [
     "image": "pinh5ad.png"
   },
   {
+    "maker": "Yode",
+    "name": "Pinhole 135 Camera Mini",
+    "format": "135",
+    "type": "pinhole",
+    "price": 0,
+    "description": "a 35mm pinhole camera with a 24mm focal length",
+    "website": "",
+    "launched": 2013,
+    "printfiles": "https://www.thingiverse.com/thing:181764",
+    "image": "pinhole-135-camera-mini.png"
+  },
+  {
+    "maker": "Mark Hiltz",
+    "name": "Pioneer",
+    "format": "120",
+    "type": "glass lens",
+    "price": 0,
+    "description": "a 6x6 camera with a 60mm focal length and a built-in shutter",
+    "website": "https://www.instagram.com/pioneer_camera/",
+    "launched": 2025,
+    "printfiles": "https://drive.google.com/drive/folders/1HPYxniFw3XWP9GWbdEW4byyxlQdUplFb",
+    "image": "pioneer.png"
+  },
+  {
     "maker": "Dora Goodman",
     "name": "SCURA 35mm",
     "format": "135",
@@ -226,6 +262,18 @@ var currentcameras = [
     "launched": 2020,
     "printfiles": "https://drive.google.com/drive/folders/1S6Lqluq48TG2c3v3EJOrM12Ks8-SqXMU",
     "image": "scura-6x6.png"
+  },
+  {
+    "maker": "Jacob Jaeggli",
+    "name": "Sidewinder Snakeskin",
+    "format": "120",
+    "type": "pinhole",
+    "price": 0,
+    "description": "a 6x4.5 pinhole camera with a 25mm focal length, based on the terraPin Bijou Sidewinder",
+    "website": "",
+    "launched": 2018,
+    "printfiles": "https://www.thingiverse.com/thing:2813550",
+    "image": "sidewinder-snakeskin.png"
   },
   {
     "maker": "Amos Dudley",
@@ -341,7 +389,7 @@ var currentcameras = [
     "format": "120",
     "type": "pinhole",
     "price": 0,
-    "description": "a 6x4.5 pinhole camera with a 35mm focal length and a built-in shutter, shooting vertical format in a 4:3 ratio",
+    "description": "a 6x4.5 pinhole camera with either a 25mm or 35mm focal length and a built-in shutter, shooting vertical format in a 4:3 ratio",
     "website": "",
     "launched": 2015,
     "printfiles": "https://www.thingiverse.com/thing:728157",
@@ -353,7 +401,7 @@ var currentcameras = [
     "format": "120",
     "type": "pinhole",
     "price": 0,
-    "description": "a 6x4.5 pinhole camera with a 35mm focal length and a built-in shutter, based on the terraPin Bijou",
+    "description": "a 6x4.5 pinhole camera with either a 25mm or 35mm focal length and a built-in shutter, based on the terraPin Bijou",
     "website": "",
     "launched": 2015,
     "printfiles": "https://www.thingiverse.com/thing:1167655",

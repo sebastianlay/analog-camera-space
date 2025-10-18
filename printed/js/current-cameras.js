@@ -24,6 +24,30 @@ var currentcameras = [
     "image": "agfa-ansco-plenax-pd-16-conversion.png"
   },
   {
+    "maker": "KV",
+    "name": "All 3D Printed Camera",
+    "format": "135",
+    "type": "pinhole",
+    "price": 0,
+    "description": "a 35mm pinhole camera with a built-in shutter",
+    "website": "",
+    "launched": 2022,
+    "printfiles": "https://www.printables.com/model/250535-all-3d-printed-camera",
+    "image": "all-3d.png"
+  },
+  {
+    "maker": "Yoni De Beule",
+    "name": "Anastigmat Camera",
+    "format": "135",
+    "type": "m39 lens",
+    "price": 0,
+    "description": "a 35mm camera for the Anastigmat 50mm f/4.5 enlarger lens",
+    "website": "",
+    "launched": 2019,
+    "printfiles": "https://www.thingiverse.com/thing:3487333",
+    "image": "anastigmat.png"
+  },
+  {
     "maker": "Damien Humby",
     "name": "Argent Eye",
     "format": "120",
@@ -77,11 +101,23 @@ var currentcameras = [
     "format": "135",
     "type": "large format lens",
     "price": 0,
-    "description": "a 35mm camera, producing a 24x65mm panoramic image",
+    "description": "a 35mm camera, producing a 65x24mm panoramic image",
     "website": "",
     "launched": 2025,
-    "printfiles": "https://makerworld.com/en/models/1140176-3d-printed-135-wide-format-film-camera-falcon-p-35#profileId-1142405",
+    "printfiles": "https://makerworld.com/en/models/1140176-3d-printed-135-wide-format-film-camera-falcon-p-35",
     "image": "falcon-p-35.png"
+  },
+  {
+    "maker": "Jackson Bohm",
+    "name": "Film Camera",
+    "format": "135",
+    "type": "nikon f lens",
+    "price": 0,
+    "description": "a 35mm camera for Nikon F lenses with a built-in shutter",
+    "website": "",
+    "launched": 2022,
+    "printfiles": "https://www.printables.com/model/229384-35mm-film-camera",
+    "image": "film-camera.png"
   },
   {
     "maker": "Simi Fernezelyi",
@@ -132,6 +168,18 @@ var currentcameras = [
     "image": "goodman-zone.png"
   },
   {
+    "maker": "Kaworu Chang",
+    "name": "K16x",
+    "format": "135",
+    "type": "pinhole",
+    "price": 1,
+    "description": "a 35mm pinhole camera with a 16mm focal length and a built-in shutter, producing a 58x24mm panoramic image",
+    "website": "https://www.youtube.com/watch?v=2R5Oznh-rhg",
+    "launched": 2024,
+    "printfiles": "https://cults3d.com/en/3d-model/gadget/k16x-a-3d-printable-135-film-16mm-ultra-wide-pinhole-camera",
+    "image": "k16x.png"
+  },
+  {
     "maker": "Javier Doroteo",
     "name": "Medium Format Camera Version 2",
     "format": "120",
@@ -173,11 +221,23 @@ var currentcameras = [
     "format": "135",
     "type": "nikon f lens",
     "price": 0,
-    "description": "a 35mm SLR camera with built-in shutter",
+    "description": "a 35mm SLR camera for Nikon F lenses with a built-in shutter",
     "website": "https://www.instructables.com/3D-Printed-Camera-OpenReflex/",
     "launched": 2013,
     "printfiles": "https://www.thingiverse.com/thing:113865",
     "image": "open-reflex.png"
+  },
+  {
+    "maker": "Kevin Valverde",
+    "name": "Original Camera",
+    "format": "4x5",
+    "type": "large format lens",
+    "price": 0,
+    "description": "a 4x5\" camera for large format lenses",
+    "website": "",
+    "launched": 2022,
+    "printfiles": "https://www.printables.com/model/250649-4x5-large-format-camera",
+    "image": "original-camera.png"
   },
   {
     "maker": "Todd Schlemmer",
@@ -238,6 +298,18 @@ var currentcameras = [
     "launched": 2025,
     "printfiles": "https://drive.google.com/drive/folders/1HPYxniFw3XWP9GWbdEW4byyxlQdUplFb",
     "image": "pioneer.png"
+  },
+  {
+    "maker": "Yoni De Beule",
+    "name": "Rapax Camera",
+    "format": "135",
+    "type": "large format lens",
+    "price": 0,
+    "description": "a 35mm camera for the Rapax 101mm f/4.5 large format lens",
+    "website": "",
+    "launched": 2015,
+    "printfiles": "https://www.thingiverse.com/thing:705782",
+    "image": "rapax.png"
   },
   {
     "maker": "Dora Goodman",
@@ -503,4 +575,16 @@ var currentcameras = [
     "printfiles": "https://makerworld.com/en/models/114356-vega-4x5-view-camera",
     "image": "vega-4x5-view-camera.png"
   },
+  {
+    "maker": "Scott Mayson",
+    "name": "Widepan X",
+    "format": "120",
+    "type": "pinhole",
+    "price": 0,
+    "description": "a 6x12 pinhole camera with a built-in shutter",
+    "website": "https://www.flickr.com/photos/scottmayson/albums/72157643492239485/",
+    "launched": 2014,
+    "printfiles": "https://www.thingiverse.com/thing:323758",
+    "image": "widepan-x.png"
+  }
 ]

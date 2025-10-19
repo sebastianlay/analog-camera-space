@@ -40,22 +40,26 @@
       <aside>
         <section>
           <input placeholder="search" v-model="search" aria-label="search" class="search" />
-          <select v-model="type" aria-label="camera type">
+          <select v-model="type" aria-label="lens type">
             <option value="all">all lens types</option>
             <option value="glass lens">glass lens</option>
             <option value="large format lens">large format lens</option>
-            <option value="m39 lens">m39 lens</option>
             <option value="mamiya press lens">mamiya press lens</option>
+            <option value="medium format lens">medium format lens</option>
             <option value="nikon f lens">nikon f lens</option>
             <option value="pinhole">pinhole</option>
+            <option value="plastic lens">plastic lens</option>
             <option value="printed lens">printed lens</option>
           </select>
-          <select v-model="format" aria-label="camera format">
-            <option value="all">all formats</option> 
+          <select v-model="format" aria-label="film format">
+            <option value="all">all film formats</option> 
             <option value="120">120 - medium format</option>
             <option value="135">135 - 35mm film</option>
             <option value="4x5">4x5" - large format</option>
-            <option value="instax mini">instax mini</option>
+            <option value="mini">instax mini</option>
+            <option value="wide">instax wide</option>
+            <option value="i-type">polaroid i-type</option>
+            <option value="custom">custom format</option>
           </select>
         </section>
         <section>
@@ -78,9 +82,9 @@
             </span>
           </p>
           <aside>
-            <div title="camera type">{{camera.type}}</div>
-            <div title="camera format">{{camera.format}}</div>
-            <div title="camera launched/updated" v-if="camera.launched">{{camera.launched}}</div>
+            <div title="lens type">{{camera.type}}</div>
+            <div title="film format">{{camera.format}}</div>
+            <div title="camera launched" v-if="camera.launched">{{camera.launched}}</div>
             <div title="price range">{{formatPrice(camera.price)}}</div>
           </aside>
         </li>
@@ -97,8 +101,8 @@
       </ul>
     </main>
   </div>
-  <script src="js/current-cameras.js?d=20251019"></script>
+  <script src="js/current-cameras.js?d=20251020"></script>
   <script src="js/vue.global.prod.js"></script>
-  <script src="js/script-index.js?d=20251019"></script>
+  <script src="js/script-index.js?d=20251020"></script>
 </body>
 </html>

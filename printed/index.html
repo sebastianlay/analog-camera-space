@@ -55,6 +55,7 @@
             <option value="120">120 - medium format</option>
             <option value="135">135 - 35mm film</option>
             <option value="4x5">4x5" - large format</option>
+            <option value="instax mini">instax mini</option>
           </select>
         </section>
         <section>
@@ -72,6 +73,7 @@
             <span v-if="camera.description">{{camera.description}}</span>
             <span>
               <a v-if="camera.website" :href="camera.website" target="_blank" rel="noopener">website</a>
+              <a v-if="camera.video" :href="camera.video" target="_blank" rel="noopener">video</a>
               <a v-if="camera.printfiles" :href="camera.printfiles" target="_blank" rel="noopener">print files</a>
             </span>
           </p>
@@ -95,8 +97,8 @@
       </ul>
     </main>
   </div>
-  <script src="js/current-cameras.js?d=20251018"></script>
+  <script src="js/current-cameras.js?d=20251019"></script>
   <script src="js/vue.global.prod.js"></script>
-  <script src="js/script-index.js?d=20251018"></script>
+  <script src="js/script-index.js?d=20251019"></script>
 </body>
 </html>

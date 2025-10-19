@@ -67,6 +67,7 @@ var currentcameras = [
     "price": 0,
     "description": "a 35mm camera for Mamiya Press lenses, producing a 24x58mm panoramic image",
     "website": "https://www.cameradactyl.com/brancopan",
+    "video": "https://www.youtube.com/watch?v=rb5aX-7nSrM",
     "launched": 2019,
     "printfiles": "https://github.com/cameradactyl/Brancopan",
     "image": "cameradactyl-brancopan.png"
@@ -79,6 +80,7 @@ var currentcameras = [
     "price": 1,
     "description": "a 6x6 pinhole camera with a 50mm focal length, where the film can be developed inside the camera",
     "website": "",
+    "video": "https://www.youtube.com/watch?v=b2tMdB5MLHM",
     "launched": 2019,
     "printfiles": "https://www.cameradactyl.com/buttergrip/p/pinholiofiles",
     "image": "cameradactyl-pinholio.png"
@@ -103,6 +105,7 @@ var currentcameras = [
     "price": 0,
     "description": "a 35mm camera, producing a 65x24mm panoramic image",
     "website": "",
+    "video": "https://www.bilibili.com/video/BV1vsFte8EmW/?buvid=XY2A01B2AC996EB93A337D28D7E07CDB67643",
     "launched": 2025,
     "printfiles": "https://makerworld.com/en/models/1140176-3d-printed-135-wide-format-film-camera-falcon-p-35",
     "image": "falcon-p-35.png"
@@ -120,6 +123,18 @@ var currentcameras = [
     "image": "film-camera.png"
   },
   {
+    "maker": "Rimantas Petrauskas",
+    "name": "Frankenpan",
+    "format": "135",
+    "type": "large format lens",
+    "price": 0,
+    "description": "a 35mm camera, converted from a Praktica MTL5B, producing 59.4x24mm panoramic images",
+    "website": "",
+    "launched": 2023,
+    "printfiles": "https://www.printables.com/model/559448-35mm-panoramic-film-camera",
+    "image": "frankenpan.png"
+  },
+  {
     "maker": "Simi Fernezelyi",
     "name": "FS-1",
     "format": "135",
@@ -127,6 +142,7 @@ var currentcameras = [
     "price": 0,
     "description": "a 35mm pinhole camera",
     "website": "https://simi.hu/analogia/pinhole_camera_instructions/",
+    "video": "https://www.youtube.com/watch?v=c4x_5QqiJh8",
     "launched": 2020,
     "printfiles": "https://www.printables.com/model/180467-3d-printed-pinhole-camera",
     "image": "fs-1.png"
@@ -163,9 +179,22 @@ var currentcameras = [
     "price": 0,
     "description": "a 6x7 camera for Mamiya Press lenses and Mamiya RB backs",
     "website": "https://doragoodman.com/goodlab-project/goodman-zone-medium-format-film-camera/",
+    "video": "https://www.youtube.com/watch?v=7F8DniqB9i8&list=PLXaU0-pltbRCaJciKL_FLO-YxoMzZEMvg",
     "launched": 2019,
     "printfiles": "https://drive.google.com/drive/folders/1uPFNM-4rCeAAwdD-yL9Mr0cwltU40PPg",
     "image": "goodman-zone.png"
+  },
+  {
+    "maker": "Josh Gladstone",
+    "name": "Jankstax One",
+    "format": "instax mini",
+    "type": "glass lens",
+    "price": 0,
+    "description": "an Instax mini camera with a 100mm focal length and a built-in shutter",
+    "video": "https://www.youtube.com/watch?v=n-TAC5FUcVg",
+    "launched": 2025,
+    "printfiles": "https://www.thingiverse.com/thing:6981670",
+    "image": "jankstax-one.png"
   },
   {
     "maker": "Kaworu Chang",
@@ -174,7 +203,7 @@ var currentcameras = [
     "type": "pinhole",
     "price": 1,
     "description": "a 35mm pinhole camera with a 16mm focal length and a built-in shutter, producing a 58x24mm panoramic image",
-    "website": "https://www.youtube.com/watch?v=2R5Oznh-rhg",
+    "video": "https://www.youtube.com/watch?v=2R5Oznh-rhg",
     "launched": 2024,
     "printfiles": "https://cults3d.com/en/3d-model/gadget/k16x-a-3d-printable-135-film-16mm-ultra-wide-pinhole-camera",
     "image": "k16x.png"
@@ -187,6 +216,7 @@ var currentcameras = [
     "price": 0,
     "description": "a 6x6 camera with an integrated film back and swappable frame inserts",
     "website": "",
+    "video": "https://www.youtube.com/watch?v=_GxiANVp2mk",
     "launched": 2022,
     "printfiles": "https://www.printables.com/model/252405-medium-format-camera-version-2",
     "image": "medium-format-camera-version-2.png"
@@ -199,6 +229,7 @@ var currentcameras = [
     "price": 1,
     "description": "a 6x6 and 6x4.5 camera with an integrated film back",
     "website": "",
+    "video": "https://www.youtube.com/watch?v=NT_dC0Two10",
     "launched": 2025,
     "printfiles": "https://www.printables.com/model/1266099-medium-format-camera-version-3",
     "image": "medium-format-camera-version-3.png"
@@ -211,6 +242,7 @@ var currentcameras = [
     "price": 0,
     "description": "a 6x9 camera for Mamiya Press lenses, Horseman 6x9 backs and Mamiya RB backs",
     "website": "https://ryan5h.art/o-zone69",
+    "video": "https://www.youtube.com/watch?v=REgRH5elXP0",
     "launched": 2023,
     "printfiles": "https://makerworld.com/en/models/1377805-o-zone-mk-7-6x9-3d-print-medium-format-film-camera",
     "image": "ozone69-mk7.png"
@@ -262,6 +294,18 @@ var currentcameras = [
     "launched": 2013,
     "printfiles": "https://www.thingiverse.com/thing:157844",
     "image": "p6x6.png"
+  },
+  {
+    "maker": "John Kossik",
+    "name": "Panoramic 6x14",
+    "format": "120",
+    "type": "large format lens",
+    "price": 0,
+    "description": "a 6x14 camera for large format lenses",
+    "website": "https://www.japancamerahunter.com/2016/09/camera-geekery-%ef%bf%bc3d-printed-panoramic-6x14-camera/",
+    "launched": 2016,
+    "printfiles": "https://www.printables.com/model/1200495-panoramic-6x14-camera",
+    "image": "panoramic-6x14.png"
   },
   {
     "maker": "Todd Schlemmer",
@@ -319,6 +363,7 @@ var currentcameras = [
     "price": 0,
     "description": "a 35mm pinhole camera with a 50mm focal length and a built-in shutter, producing a 60x25mm panorama image",
     "website": "https://doragoodman.com/goodlab-project/scura-pinhole-camera/",
+    "video": "https://www.youtube.com/watch?v=WHgHGF2g21E&list=PLXaU0-pltbRBPiwEMGUoDFvNEtogUp-fs",
     "launched": 2020,
     "printfiles": "https://drive.google.com/drive/folders/1fProA9swurpK6Qd5l8z9SjZhRs8J7bOq",
     "image": "scura-35mm.png"
@@ -358,6 +403,18 @@ var currentcameras = [
     "launched": 2016,
     "printfiles": "https://pinshape.com/items/25871-3d-printed-slo-printed-lens-camera",
     "image": "slo.png"
+  },
+  {
+    "maker": "Drew Nikonowicz",
+    "name": "Standard 4x5 2.0",
+    "format": "4x5",
+    "type": "large format lens",
+    "price": 1,
+    "description": "a 4x5\" camera for large format lenses",
+    "video": "https://www.youtube.com/watch?v=d4ge8cptiso",
+    "launched": 2023,
+    "printfiles": "https://standardcameras.com/products/standard-4x5-2-0-download",
+    "image": "standard.png"
   },
   {
     "maker": "Quentin Orhant",
@@ -564,12 +621,37 @@ var currentcameras = [
     "image": "terrapin-prime.png"
   },
   {
+    "maker": "Torben Ross",
+    "name": "Tiny 120 Pinhole Camera",
+    "format": "120",
+    "type": "pinhole",
+    "price": 0,
+    "description": "a 6x6 pinhole camera with a built-in shutter",
+    "website": "https://www.torbenross.com/2017/09/29/tiny-6x6-120-pinhole/",
+    "launched": 2017,
+    "printfiles": "https://www.thingiverse.com/thing:2557065",
+    "image": "tiny-120-pinhole-camera.png"
+  },
+  {
+    "maker": "Torben Ross",
+    "name": "Tiny Pinhole Camera",
+    "format": "135",
+    "type": "pinhole",
+    "price": 0,
+    "description": "a 35mm pinhole camera with a built-in shutter",
+    "website": "https://www.torbenross.com/2017/09/14/tiny-pinhole-camera/",
+    "video": "https://www.youtube.com/watch?v=GX6EKaUGzWo",
+    "launched": 2017,
+    "printfiles": "https://www.thingiverse.com/thing:2498620",
+    "image": "tiny-pinhole-camera.png"
+  },
+  {
     "maker": "Raul Paz",
     "name": "Vega 4x5",
     "format": "4x5",
     "type": "large format lens",
     "price": 0,
-    "description": "a remix of The Standard 4x5 from Standard Cameras, adding features, simplifying assembly and using more widely avaliable materials",
+    "description": "a remix of The Standard 4x5, adding features, simplifying assembly and using more widely avaliable materials",
     "website": "",
     "launched": 2023,
     "printfiles": "https://makerworld.com/en/models/114356-vega-4x5-view-camera",

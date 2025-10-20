@@ -56,6 +56,9 @@
             <option value="120">120 - medium format</option>
             <option value="135">135 - 35mm film</option>
             <option value="4x5">4x5" - large format</option>
+            <option value="4x10">4x10" - large format</option>
+            <option value="5x7">5x7" - large format</option>
+            <option value="8x10">8x10" - large format</option>
             <option value="mini">instax mini</option>
             <option value="wide">instax wide</option>
             <option value="i-type">polaroid i-type</option>
@@ -82,7 +85,7 @@
             </span>
           </p>
           <aside>
-            <div title="lens type">{{camera.type}}</div>
+            <div title="lens type">{{camera.type instanceof Array ? camera.type[0] : camera.type}}</div>
             <div title="film format">{{camera.format}}</div>
             <div title="camera launched" v-if="camera.launched">{{camera.launched}}</div>
             <div title="price range">{{formatPrice(camera.price)}}</div>
@@ -101,8 +104,8 @@
       </ul>
     </main>
   </div>
-  <script src="js/current-cameras.js?d=20251020"></script>
+  <script src="js/current-cameras.js?d=20251021"></script>
   <script src="js/vue.global.prod.js"></script>
-  <script src="js/script-index.js?d=20251020"></script>
+  <script src="js/script-index.js?d=20251021"></script>
 </body>
 </html>

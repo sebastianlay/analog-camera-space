@@ -35,11 +35,11 @@ Vue.createApp({
         });
       } else if(this.type !== 'all' && this.format === 'all') {
         return this.searchedcameras.filter(function (camera) {
-          return type === camera.type;
+          return type === camera.type || camera.type.includes(type);
         });
       } else {
         return this.searchedcameras.filter(function (camera) {
-          return type === camera.type && format === camera.format;
+          return (type === camera.type || camera.type.includes(type)) && format === camera.format;
         });
       }
     },

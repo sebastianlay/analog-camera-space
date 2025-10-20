@@ -23,6 +23,17 @@ var currentcameras = [
     "image": "4x5-camera.png"
   },
   {
+    "maker": "Morten Kolve",
+    "name": "5x7\" Point & Shoot",
+    "format": "5x7",
+    "type": "large format lens",
+    "price": 0,
+    "description": "a 5x7\" camera for 150mm large format lenses",
+    "launched": 2019,
+    "printfiles": "https://www.thingiverse.com/thing:3581556",
+    "image": "5x7-point-and-shoot.png"
+  },
+  {
     "maker": "Torsten Spiller",
     "name": "Agfa Ansco Plenax PD 16 Conversion",
     "format": "120",
@@ -126,6 +137,18 @@ var currentcameras = [
     "launched": 2024,
     "printfiles": "https://www.thefilmlaundry.com/shop/p/eb-617-mk-ii-digital-plans",
     "image": "eb-617-mk-ii.png"
+  },
+  {
+    "maker": "Zalán Tóth",
+    "name": "F617",
+    "format": "120",
+    "type": "large format lens",
+    "price": 1,
+    "description": "a 6x17 camera for a wide range of large format lenses",
+    "video": "https://www.youtube.com/watch?v=45RU-3IR-xk",
+    "launched": 2023,
+    "printfiles": "https://www.threedeecameragear.com/store/p/f617-digital-files",
+    "image": "f617.png"
   },
   {
     "maker": "Shengqiang Zhang",
@@ -423,6 +446,18 @@ var currentcameras = [
     "launched": 2013,
     "printfiles": "https://www.thingiverse.com/thing:157844",
     "image": "p6x6.png"
+  },
+  {
+    "maker": "Zalán Tóth",
+    "name": "P690",
+    "format": "120",
+    "type": ["large format lens", "mamiya press lens", "pinhole"],
+    "price": 1,
+    "description": "a 6x9 camera for large format lenses, Mamiya Press lenses or a pinhole",
+    "video": "https://www.youtube.com/watch?v=3dHMNghR1Mc",
+    "launched": 2025,
+    "printfiles": "https://www.threedeecameragear.com/store/p/p690-files",
+    "image": "p690.png"
   },
   {
     "maker": "John Kossik",
@@ -809,5 +844,54 @@ var currentcameras = [
     "launched": 2014,
     "printfiles": "https://www.thingiverse.com/thing:323758",
     "image": "widepan-x.png"
+  },
+  {
+    "maker": "Morten Kolve",
+    "name": "WillTravel 4x10",
+    "format": "4x10",
+    "type": "large format lens",
+    "price": 0,
+    "description": "a 4x10\" camera for a wide range of large format lenses",
+    "website": "https://film.kolve.org/darkroomdiy/will-travel-friendly-cameras/",
+    "launched": 2021,
+    "printfiles": "https://www.thingiverse.com/thing:4705214",
+    "image": "willtravel-4x10.png"
+  },
+  {
+    "maker": "Morten Kolve",
+    "name": "WillTravel 4x5",
+    "format": "4x5",
+    "type": "large format lens",
+    "price": 0,
+    "description": "a 4x5\" camera for a wide range of large format lenses",
+    "website": "https://film.kolve.org/darkroomdiy/will-travel-friendly-cameras/",
+    "video": "https://www.youtube.com/watch?v=ZGLCE_BvFPo",
+    "launched": 2020,
+    "printfiles": "https://www.thingiverse.com/thing:4084731",
+    "image": "willtravel-4x5.png"
+  },
+  {
+    "maker": "Morten Kolve",
+    "name": "WillTravel 5x7",
+    "format": "5x7",
+    "type": "large format lens",
+    "price": 0,
+    "description": "a 5x7\" camera for a wide range of large format lenses",
+    "website": "https://film.kolve.org/darkroomdiy/will-travel-friendly-cameras/",
+    "launched": 2020,
+    "printfiles": "https://www.thingiverse.com/thing:4155858",
+    "image": "willtravel-5x7.png"
+  },
+  {
+    "maker": "Morten Kolve",
+    "name": "WillTravel 8x10",
+    "format": "8x10",
+    "type": "large format lens",
+    "price": 0,
+    "description": "an 8x10\" camera for a wide range of large format lenses",
+    "website": "https://film.kolve.org/darkroomdiy/will-travel-friendly-cameras/",
+    "launched": 2022,
+    "printfiles": "https://www.thingiverse.com/thing:5348927",
+    "image": "willtravel-8x10.png"
   }
 ]

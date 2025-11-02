@@ -115,12 +115,24 @@ var currentcameras = [
     "image": "cameradactyl-pinholio.png"
   },
   {
+    "maker": "Oscar Oweson",
+    "name": "Chromium",
+    "format": "135",
+    "type": "mft lens",
+    "price": 0,
+    "description": "a 35mm camera for a Micro Four Thirds lens, producing a 24x24mm square image",
+    "website": "https://www.panomicron.com/chormiummain",
+    "launched": 2021,
+    "printfiles": "https://github.com/Panomicron/Chromium",
+    "image": "chromium.png"
+  },
+  {
     "maker": "Clint O’Connor",
     "name": "Easy 35",
     "format": "135",
     "type": "pinhole",
     "price": 0,
-    "description": "a 35mm pinhole camera with a 25mm focal length, producing a 24x48mm image",
+    "description": "a 35mm pinhole camera with a 25mm focal length, producing a 48x24mm image",
     "website": "https://www.instructables.com/Easy-35-3D-Printed-Pinhole-Camera/",
     "launched": 2015,
     "printfiles": "https://www.thingiverse.com/thing:953359",
@@ -163,6 +175,17 @@ var currentcameras = [
     "image": "falcon-p-35.png"
   },
   {
+    "maker": "Rayfor Loy",
+    "name": "FCO66",
+    "format": "120",
+    "type": "large format lens",
+    "price": 0,
+    "description": "a 6x6 camera for large format lenses and Hasselblad A12 backs",
+    "launched": 2025,
+    "printfiles": "https://makerworld.com/en/models/1304187-fco66-vmount-6x6-film-camera",
+    "image": "fco66.png"
+  },
+  {
     "maker": "Jackson Bohm",
     "name": "Film Camera",
     "format": "135",
@@ -190,7 +213,7 @@ var currentcameras = [
     "format": "135",
     "type": "medium format lens",
     "price": 0,
-    "description": "a 35mm camera, converted from a Praktica MTL5B, producing 59.4x24mm panoramic images",
+    "description": "a 35mm camera, converted from a Praktica MTL5B, producing a 59.4x24mm panoramic image",
     "launched": 2023,
     "printfiles": "https://www.printables.com/model/559448-35mm-panoramic-film-camera",
     "image": "frankenpan.png"
@@ -251,7 +274,7 @@ var currentcameras = [
     "format": "135",
     "type": "medium format lens",
     "price": 0,
-    "description": "a 35mm camera for Mamiya TLR lenses, producing 72x24mm panoramic images",
+    "description": "a 35mm camera for Mamiya TLR lenses, producing a 72x24mm panoramic image",
     "website": "https://timetowaste.ru/en_infidex",
     "video": "https://www.youtube.com/watch?v=zv_Ho8Yjjiw",
     "launched": 2024,
@@ -369,7 +392,7 @@ var currentcameras = [
   },
   {
     "maker": "Ryan Oh",
-    "name": "O.Zone69 Mk.7",
+    "name": "O.Zone Mk.7",
     "format": "120",
     "type": "mamiya press lens",
     "price": 0,
@@ -379,6 +402,17 @@ var currentcameras = [
     "launched": 2023,
     "printfiles": "https://makerworld.com/en/models/1377805-o-zone-mk-7-6x9-3d-print-medium-format-film-camera",
     "image": "ozone69-mk7.png"
+  },
+  {
+    "maker": "Ryan Oh",
+    "name": "O.Zone Mk.8",
+    "format": "120",
+    "type": "mamiya press lens",
+    "price": 0,
+    "description": "a 6x9 camera for Mamiya Press lenses, Horseman 6x9 backs and Mamiya RB backs",
+    "launched": 2025,
+    "printfiles": "https://makerworld.com/en/models/1938699-o-zone-mk-8-modular-6x9-medium-format-film-camera",
+    "image": "ozone69-mk8.png"
   },
   {
     "maker": "Jørgen Kløvstad",
@@ -424,6 +458,18 @@ var currentcameras = [
     "launched": 2022,
     "printfiles": "https://www.printables.com/model/250649-4x5-large-format-camera",
     "image": "original-camera.png"
+  },
+  {
+    "maker": "Oscar Oweson",
+    "name": "Oxygen",
+    "format": "135",
+    "type": "large format lens",
+    "price": 0,
+    "description": "a 35mm camera, producing a 65x24mm panoramic image",
+    "website": "https://www.panomicron.com/oxygen-1",
+    "launched": 2020,
+    "printfiles": "https://github.com/Panomicron/Oxygen",
+    "image": "oxygen.png"
   },
   {
     "maker": "Todd Schlemmer",
@@ -477,7 +523,7 @@ var currentcameras = [
     "format": "135",
     "type": "plastic lens",
     "price": 0,
-    "description": "a 35mm camera with a plastic lens from a polaroid camera, producing 72x24mm panoramic images",
+    "description": "a 35mm camera with a plastic lens from a polaroid camera, producing a 72x24mm panoramic image",
     "launched": 2020,
     "printfiles": "https://www.myminifactory.com/object/3d-print-panoramic-camera-with-polaroid-lens-111534",
     "image": "panoramic-camera.png"
@@ -555,7 +601,7 @@ var currentcameras = [
     "format": "135",
     "type": "pinhole",
     "price": 0,
-    "description": "a 35mm pinhole camera with a 50mm focal length and a built-in shutter, producing a 60x25mm panorama image",
+    "description": "a 35mm pinhole camera with a 50mm focal length and a built-in shutter, producing a 60x25mm panoramic image",
     "website": "https://doragoodman.com/goodlab-project/scura-pinhole-camera/",
     "video": "https://www.youtube.com/watch?v=WHgHGF2g21E&list=PLXaU0-pltbRBPiwEMGUoDFvNEtogUp-fs",
     "launched": 2020,
@@ -796,6 +842,17 @@ var currentcameras = [
     "launched": 2016,
     "printfiles": "https://www.thingiverse.com/thing:1253008",
     "image": "terrapin-prime.png"
+  },
+  {
+    "maker": "Oscar Oweson",
+    "name": "Thulium",
+    "format": "120",
+    "type": "large format lens",
+    "price": 0,
+    "description": "a 6x9 camera for large format lenses",
+    "launched": 2019,
+    "printfiles": "https://www.panomicron.com/thulium",
+    "image": "thulium.png"
   },
   {
     "maker": "Torben Ross",

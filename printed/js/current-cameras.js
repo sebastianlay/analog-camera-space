@@ -127,6 +127,18 @@ var currentcameras = [
     "image": "chromium.png"
   },
   {
+    "maker": "Shengqiang Zhang",
+    "name": "Eagle 45 Shift",
+    "format": "4x5",
+    "type": "large format lens",
+    "price": 0,
+    "description": "a 4x5\" camera for large format lenses",
+    "video": "https://www.bilibili.com/video/BV1ZZexzME8Y/",
+    "launched": 2025,
+    "printfiles": "https://makerworld.com/en/models/1735681-eagle-45-shift-large-format-snap-camera-90mm-lens",
+    "image": "eagle-45-shift.png"
+  },
+  {
     "maker": "Clint O’Connor",
     "name": "Easy 35",
     "format": "135",
@@ -173,6 +185,18 @@ var currentcameras = [
     "launched": 2025,
     "printfiles": "https://makerworld.com/en/models/1140176-3d-printed-135-wide-format-film-camera-falcon-p-35",
     "image": "falcon-p-35.png"
+  },
+  {
+    "maker": "Vasiliy Ovsyankin",
+    "name": "Fat Shot 617",
+    "format": "120",
+    "type": "large format lens",
+    "price": 0,
+    "description": "a 6x17 camera for large format lenses",
+    "video": "https://www.youtube.com/watch?v=tXMyZESrwJ4",
+    "launched": 2025,
+    "printfiles": "https://www.printables.com/model/1461053-fat-shot-617-medium-format-6x17-modular-panoramic",
+    "image": "fat-shot-617.png"
   },
   {
     "maker": "Rayfor Loy",
@@ -224,7 +248,7 @@ var currentcameras = [
     "format": "135",
     "type": "pinhole",
     "price": 0,
-    "description": "a 35mm pinhole camera",
+    "description": "a 35mm pinhole camera with a built-in shutter",
     "website": "https://simi.hu/analogia/pinhole_camera_instructions/",
     "video": "https://www.youtube.com/watch?v=c4x_5QqiJh8",
     "launched": 2020,
@@ -304,6 +328,30 @@ var currentcameras = [
     "launched": 2024,
     "printfiles": "https://cults3d.com/en/3d-model/gadget/k16x-a-3d-printable-135-film-16mm-ultra-wide-pinhole-camera",
     "image": "k16x.png"
+  },
+  {
+    "maker": "Graham Young",
+    "name": "Kraken 612",
+    "format": "120",
+    "type": "large format lens",
+    "price": 1,
+    "description": "a 6x12 camera for large format lenses",
+    "website": "http://frozenphoton.com/kraken/",
+    "launched": 2020,
+    "printfiles": "https://www.etsy.com/listing/790289977/the-kraken-612-3d-printable-panoramic",
+    "image": "kraken-612.png"
+  },
+  {
+    "maker": "Stampa Furba",
+    "name": "Large Format 4x5 Field Camera",
+    "format": "4x5",
+    "type": "large format lens",
+    "price": 0,
+    "description": "a 4x5\" camera for large format lenses",
+    "website": "",
+    "launched": 2024,
+    "printfiles": "https://www.printables.com/model/935623-large-format-4x5-field-camera",
+    "image": "large-format-4x5-field-camera.png"
   },
   {
     "maker": "Mario Machon",
@@ -413,6 +461,17 @@ var currentcameras = [
     "launched": 2025,
     "printfiles": "https://makerworld.com/en/models/1938699-o-zone-mk-8-modular-6x9-medium-format-film-camera",
     "image": "ozone69-mk8.png"
+  },
+  {
+    "maker": "Cingtam Lu",
+    "name": "One-Piece 4x5 Large Format Snap-Shot Camera",
+    "format": "4x5",
+    "type": "large format lens",
+    "price": 0,
+    "description": "a 4x5\" camera for large format lenses, printed in a single piece",
+    "launched": 2025,
+    "printfiles": "https://www.thingiverse.com/thing:7072716",
+    "image": "one-piece-4x5-large-format-snap-shot-camera.png"
   },
   {
     "maker": "Jørgen Kløvstad",
@@ -527,6 +586,18 @@ var currentcameras = [
     "launched": 2020,
     "printfiles": "https://www.myminifactory.com/object/3d-print-panoramic-camera-with-polaroid-lens-111534",
     "image": "panoramic-camera.png"
+  },
+  {
+    "maker": "Anders Blomqvist",
+    "name": "PiCa135",
+    "format": "135",
+    "type": "pinhole",
+    "price": 0,
+    "description": "a 35mm pinhole camera with a built-in shutter and shift capabilities",
+    "video": "https://vimeo.com/506748154",
+    "launched": 2020,
+    "printfiles": "https://www.printables.com/model/168683-pica135-a-pinhole-camera-with-shift-capabilities",
+    "image": "pica-135.png"
   },
   {
     "maker": "Todd Schlemmer",
